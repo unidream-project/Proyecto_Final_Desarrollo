@@ -11,32 +11,23 @@ class BaseUniversitySpider(scrapy.Spider):
     university_name = ""
     city = ""
 
-    def parse_career(self, response):
+    def create_base_item(self, response):
+        """
+        Crea un item base con la información común a todas las universidades.
+        Los spiders específicos completan el resto.
+        """
         item = CareerItem()
 
         item["university"] = self.university_name
         item["city"] = self.city
-        item["career_name"] = self.clean_text(
-            response.css("h1::text").get()
-        )
-
-        item["description"] = self.clean_text(
-            " ".join(response.css("p::text").getall())
-        )
-
-        item["duration"] = self.clean_text(
-            response.css(".duration::text").get()
-        )
-
-        item["modality"] = self.clean_text(
-            response.css(".modality::text").get()
-        )
-    
         item["url"] = response.url
 
-        yield item
+        return item
 
     def clean_text(self, text):
+        """
+        Normaliza texto: elimina saltos de línea, espacios múltiples, etc.
+        """
         if not text:
             return None
         return " ".join(text.split())

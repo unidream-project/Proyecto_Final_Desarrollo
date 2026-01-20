@@ -2,24 +2,32 @@ import scrapy
 from .base_university import BaseUniversitySpider
 
 
-class EspolSpider(BaseUniversitySpider):
-    name = "espol"
-    allowed_domains = ["espol.edu.ec"]
+class EspeSpider(BaseUniversitySpider):
+    name = "espe"
+    allowed_domains = ["espe.edu.ec"]
     start_urls = [
-        "https://www.espol.edu.ec/es/educacion/grado"
+        "https://www.espe.edu.ec/oferta-academica-espe-presencial/"
     ]
 
-    university_name = "Escuela Superior Politécnica del Litoral"
-    city = "Guayaquil"
+    university_name = "Universidad de las Fuerzas Armadas ESPE"
+    city = "Sangolquí"
 
     def parse(self, response):
-        career_links = response.css("a[href*='/carrera']::attr(href)").getall()
+        # Todas las columnas que contienen carreras
+        columnas = response.css(
+            'div[class^="elementor-column elementor-col-50 elementor-inner-column elementor-element"]'
+        )
 
-        for link in career_links:
-            yield response.follow(
-                link,
-                callback=self.parse_career
-            )
+        for col in columnas:
+            links = col.css(
+                "span.subtext a[href^='https://www.espe.edu.ec/']::attr(href)"
+            ).getall()
+
+            for link in links:
+                yield response.follow(
+                    link,
+                    callback=self.parse_career
+                )
 
     def parse_career(self, response):
         item = self.create_base_item(response)
@@ -37,7 +45,7 @@ class EspolSpider(BaseUniversitySpider):
         )
 
         item["degree_title"] = self.clean_text(
-            response.xpath("/html/body/div[2]/div[2]/div[2]/div[1]/div/div[2]/text()").get()
+            response.xpath("//h1[contains(@class,'elementor-heading-title') and contains(text(),'Título')]/text()").get()
         )
 
         item["description"] = self.clean_text(
