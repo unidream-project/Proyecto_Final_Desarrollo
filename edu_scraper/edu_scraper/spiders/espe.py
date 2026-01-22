@@ -10,78 +10,75 @@ class EspeSpider(BaseUniversitySpider):
     ]
 
     university_name = "Universidad de las Fuerzas Armadas ESPE"
-    city = "Sangolquí"
+    university_type = "Pública"
+    university_contact = "https://www.espe.edu.ec/contactos/"
 
     def parse(self, response):
-        # Todas las columnas que contienen carreras
-        columnas = response.css(
-            'div[class^="elementor-column elementor-col-50 elementor-inner-column elementor-element"]'
-        )
+        # La ESPE lista las carreras en bloques tipo Elementor
+        links = response.css(
+            "span.subtext a[href^='https://www.espe.edu.ec/']::attr(href)"
+        ).getall()
 
-        for col in columnas:
-            links = col.css(
-                "span.subtext a[href^='https://www.espe.edu.ec/']::attr(href)"
-            ).getall()
-
-            for link in links:
-                yield response.follow(
-                    link,
-                    callback=self.parse_career
-                )
+        for link in links:
+            yield response.follow(link, callback=self.parse_career)
 
     def parse_career(self, response):
         item = self.create_base_item(response)
 
         # =========================
-        # DATOS PRINCIPALES
+        # IDENTIDAD DE LA CARRERA
         # =========================
 
         item["career_name"] = self.clean_text(
-            response.css("i.fa::text").get()
+            response.css("h1.elementor-heading-title::text").get()
         )
 
-        item["faculty"] = self.clean_text(
-            response.css(".field--name-field-facultad::text").get()
+        item["faculty_name"] = self.clean_text(
+            response.xpath(
+                "//strong[contains(text(),'Departamento') or contains(text(),'Facultad')]/following::text()[1]"
+            ).get()
         )
 
         item["degree_title"] = self.clean_text(
-            response.xpath("//h1[contains(@class,'elementor-heading-title') and contains(text(),'Título')]/text()").get()
+            response.xpath(
+                "//strong[contains(text(),'Título que otorga')]/following::text()[1]"
+            ).get()
         )
+
+        # =========================
+        # INFORMACIÓN GENERAL
+        # =========================
 
         item["description"] = self.clean_text(
             " ".join(
-                response.css(".field--name-body p::text").getall()
+                response.css(
+                    "div.elementor-widget-text-editor p::text"
+                ).getall()
             )
         )
+
+        item["locations"] = ["Sangolquí"]
+
+        item["cost"] = "Consultar universidad"
 
         # =========================
         # INFORMACIÓN ACADÉMICA
         # =========================
 
-        item["duration"] = self.clean_text(
+        item["semesters"] = self.clean_text(
             response.xpath(
-                "//div[contains(text(),'Duración')]/following-sibling::div/text()"
+                "//strong[contains(text(),'Duración')]/following::text()[1]"
             ).get()
         )
 
         item["modality"] = self.clean_text(
             response.xpath(
-                "//div[contains(text(),'Modalidad')]/following-sibling::div/text()"
+                "//strong[contains(text(),'Modalidad')]/following::text()[1]"
             ).get()
         )
 
-        # =========================
-        # FUTURAS EXTENSIONES
-        # =========================
-
-        item["mission"] = self.clean_text(
-            response.xpath(
-                "/html/body/div[2]/main/div/div/div[1]/div[2]/div/div/div/div/div/div[2]/div[1]/div/div/p[2]/text()"
-            ).get()
-        )
-        item["vision"] = None
-        item["objectives"] = None
-        item["career_profile"] = None
-        item["study_plan_pdf"] = None
+        item["study_plan_pdf"] = response.css(
+            "a[href$='.pdf']::attr(href)"
+        ).get()
 
         yield item
