@@ -9,11 +9,11 @@ class UcuencaSpider(BaseUniversitySpider):
     start_urls = ["https://www.ucuenca.edu.ec/oferta-academica/grado/"]
 
     university_name = "Universidad de Cuenca"
+    university_siglas = "UCUENCA"
     university_type = "Pública"
     university_contact = "https://www.ucuenca.edu.ec/contacto"
 
     def parse(self, response):
-        # Seleccionamos cada tarjeta de carrera en el listado
         items = response.css("div.filter-item")
 
         for item in items:
@@ -37,48 +37,42 @@ class UcuencaSpider(BaseUniversitySpider):
     def parse_career(self, response):
         career_raw = response.meta.get('carrera')
         
-        # Estructura de datos completa fusionada
+        # --- EXTRACCIÓN DE DATOS ACADÉMICOS ---
+        duration = self.clean_text(response.xpath("//p[contains(text(),'Duración')]/following-sibling::p/text()").get())
+        modality = self.clean_text(response.xpath("//p[contains(text(),'Modalidad de estudios')]/following-sibling::p/text()").get())
+        
+        # --- GENERACIÓN DEL IDENTIFICADOR ÚNICO ---
+        # Limpiamos el nombre para el ID (mayúsculas, sin acentos, guiones bajos)
+        clean_name_id = re.sub(r'\W+', '_', career_raw.upper()) if career_raw else "SIN_NOMBRE"
+        clean_mod_id = re.sub(r'\W+', '_', modality.upper()) if modality else "PRESENCIAL"
+        career_id = f"{self.university_siglas}_{clean_mod_id}_{clean_name_id}"
+
         item = {
-            # Identidad y Metadatos
-            "career_id": re.sub(r'\W+', '_', career_raw.upper()) if career_raw else None,
+            "career_id": career_id,
             "university_name": self.university_name,
             "career_url": response.url,
             "data_collection_date": date.today().strftime("%Y-%m-%d"),
             "university_type": self.university_type,
             "university_contact": self.university_contact,
-            
-            # Datos de la Carrera
             "career_name": self.clean_text(career_raw),
             "faculty_name": self.clean_text(response.meta.get('facultad')),
             "degree_title": self.clean_text(response.meta.get('titulo')),
             "description": self.clean_text(" ".join(response.css("#descripcion .vision_content p::text").getall())),
-            
-            # Ubicación y Costos
             "locations": ["Cuenca"],
             "cost": "Gratuita (Pública)",
-            
-            # Datos Académicos
-            "duration": self.clean_text(response.xpath("//p[contains(text(),'Duración')]/following-sibling::p/text()").get()),
-            "modality": self.clean_text(response.xpath("//p[contains(text(),'Modalidad de estudios')]/following-sibling::p/text()").get()),
-            
-            # Malla (Nombre genérico si no hay PDF)
-            "study_plan_name": "Malla Curricular Unificada",
+            "semesters": duration,
+            "modality": modality,
+            "study_plan_name": f"Malla Curricular - {career_raw}",
             "study_plan_pdf": response.css("a[href$='.pdf']::attr(href)").get() or "No disponible",
-            
             "subjects": []
         }
 
-        # =========================
-        # EXTRACCIÓN DE MATERIAS (Evitando duplicados de itinerarios)
-        # =========================
+        # --- EXTRACCIÓN DE MATERIAS (Solo Itinerario 1 para evitar duplicados) ---
         subjects_list = []
-        # Filtramos para entrar solo al primer itinerario y evitar ciclos repetidos
-        malla_principal = response.css("div.itinerario1")
-        if not malla_principal:
-            malla_principal = response.css("div.malla_curricular_content")
-
+        malla_principal = response.css("div.itinerario1") or response.css("div.malla_curricular_content")
+        
         ciclos = malla_principal.css("div[class*='ciclo_']")
-        vistas = set() # Para asegurar unicidad
+        vistas = set()
 
         for ciclo in ciclos:
             header = ciclo.css("h3.titulo-large::text").get()
@@ -91,9 +85,8 @@ class UcuencaSpider(BaseUniversitySpider):
             for materia in materias:
                 nombre_limpio = self.clean_text(materia)
                 if nombre_limpio:
-                    # Huella única para evitar que después del semestre 8 vuelva al 1
+                    # Huella para evitar que después del semestre 8 repita el 1
                     huella = f"{semester_num}-{nombre_limpio.lower()}"
-                    
                     if huella not in vistas:
                         subjects_list.append({
                             "code": None,
