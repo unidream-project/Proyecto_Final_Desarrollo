@@ -22,7 +22,7 @@ genai.configure(api_key=API_KEY)
 # =========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-universidad = "uide"
+universidad = "epn"  # Cambiar según la universidad que se esté procesando
 
 # JSON de entrada generado por Scrapy
 INPUT_JSON = os.path.abspath(
@@ -43,7 +43,8 @@ TEMP_PDF_DIR.mkdir(parents=True, exist_ok=True)
 def descargar_pdf(url, nombre_archivo):
     ruta_local = TEMP_PDF_DIR / nombre_archivo
     try:
-        response = requests.get(url, stream=True, timeout=20)
+        # Agregamos verify=False para saltar la validación del certificado SSL
+        response = requests.get(url, stream=True, timeout=20, verify=False)
         response.raise_for_status()
         with open(ruta_local, "wb") as f:
             for chunk in response.iter_content(chunk_size=8192):
@@ -116,7 +117,11 @@ def main():
     contador_api = 0
 
     for item_scrapy in carreras_scrapy:
-        nombre_carrera = item_scrapy.get("career_name", "sin_nombre").replace(" ", "_")
+        nombre_limpio = item_scrapy.get("career_name", "sin_nombre").replace(" ", "_").replace("/", "-")
+        
+        # Opcional: limpiar también otros caracteres problemáticos
+        nombre_archivo = f"{nombre_limpio}.pdf"
+        
         url_pdf = item_scrapy.get("study_plan_pdf")
 
         if not url_pdf or url_pdf == "null":
@@ -133,8 +138,8 @@ def main():
 
         print(f"--- Procesando ({contador_api + 1}): {item_scrapy.get('career_name')} ---")
         
-        # 1. Descargar PDF
-        ruta_pdf = descargar_pdf(url_pdf, f"{nombre_carrera}.pdf")
+        # Usar el nombre_archivo ya limpio
+        ruta_pdf = descargar_pdf(url_pdf, nombre_archivo)
 
         if ruta_pdf:
             # 2. Procesar con IA
@@ -150,7 +155,7 @@ def main():
             
             # 3. Construir el JSON final
             objeto_formateado = {
-                "universidad": datos_ia.get("universidad") or "Universidad Internacional del Ecuador",
+                "universidad": datos_ia.get("university_name") or "Universidad Internacional del Ecuador",
                 "carrera": item_scrapy.get("career_name"),
                 "career_url_ref": item_scrapy.get("career_url") or url_pdf, 
                 "pensum": datos_ia.get("pensum") or "Vigente",

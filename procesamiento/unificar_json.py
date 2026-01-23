@@ -14,7 +14,8 @@ def generate_global_id(uni_name, modality, career_name):
         "Universidad de Cuenca": "UCUENCA",
         "Universidad Internacional del Ecuador": "UIDE",
         "Universidad de las Artes": "UARTES",
-        "Universidad de Las Américas": "UDLA"
+        "Universidad de Las Américas": "UDLA",
+        "Escuela Politécnica Nacional": "EPN"
     }
     sigla = siglas_map.get(uni_name, re.sub(r'\W+', '', uni_name[:6]).upper())
     
@@ -25,7 +26,7 @@ def generate_global_id(uni_name, modality, career_name):
     return f"{sigla}_{mod}_{name}"
 
 def merge_and_save(careers_data, subjects_data):
-    output_folder = "data_unificada"
+    output_folder = "../data_unificada"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -100,7 +101,7 @@ def merge_and_save(careers_data, subjects_data):
 
 # --- Ejecución ---
 files_to_process = [
-    ('uide_careers.json', 'uide_mallas.json')
+    ('epn_careers.json', 'epn_mallas.json')
 ]
 
 for career_file, malla_file in files_to_process:
