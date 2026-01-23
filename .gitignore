@@ -33,3 +33,4 @@ out/
 *.lib
 *.obj
 *.log
+.env

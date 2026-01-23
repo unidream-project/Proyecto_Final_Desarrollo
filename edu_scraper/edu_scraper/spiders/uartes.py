@@ -1,7 +1,7 @@
 import scrapy
 from .base_university import BaseUniversitySpider
 
-class EspolSpider(BaseUniversitySpider):
+class UartesSpider(BaseUniversitySpider):
     name = "uartes"
     allowed_domains = ["uartes.edu.ec"]
     start_urls = [
