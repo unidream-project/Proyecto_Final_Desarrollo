@@ -3,214 +3,164 @@ from bs4 import BeautifulSoup
 import pdfplumber
 import io
 import pandas as pd
-import time
 import os
+import sys
 from urllib.parse import urljoin
 import urllib3
 
-# --- CONFIGURACIÓN ---
+# --- 1. CONFIGURACIÓN DE SISTEMA ---
+# Esto arregla los errores de caracteres raros en la consola de Windows
+sys.stdout.reconfigure(encoding='utf-8')
+
+# Ignorar advertencias de seguridad (SSL)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Cabeceras para simular ser un navegador real
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Connection': 'keep-alive'
 }
 
 class AcademicScraper:
     def __init__(self):
-        self.dataset = [] # Memoria temporal
+        self.dataset = [] 
         if not os.path.exists('data'):
             os.makedirs('data')
 
-    def extract_text_from_pdf(self, pdf_url):
+    # --- HERRAMIENTAS BÁSICAS ---
+    def safe_get(self, url):
+        """Descarga segura forzando UTF-8"""
         try:
-            print(f"      ⬇️ Descargando PDF: {pdf_url}...")
-            response = requests.get(pdf_url, headers=HEADERS, timeout=25, verify=False)
+            response = requests.get(url, headers=HEADERS, timeout=25, verify=False)
+            response.encoding = 'utf-8' # Forzar codificación correcta
+            return response.text
+        except Exception as e:
+            print(f"      ❌ Error conexión: {e}")
+            return None
+
+    def extract_text_from_pdf(self, pdf_url):
+        """Descarga y lee PDFs"""
+        try:
+            print(f"      ⬇️ Bajando PDF: {pdf_url}...")
+            response = requests.get(pdf_url, headers=HEADERS, timeout=30, verify=False)
             text_content = ""
             with pdfplumber.open(io.BytesIO(response.content)) as pdf:
                 for page in pdf.pages:
                     extracted = page.extract_text()
-                    if extracted:
-                        text_content += extracted.replace('\n', ' ') + " "
+                    if extracted: text_content += extracted.replace('\n', ' ') + " "
             return " ".join(text_content.split())
-        except Exception as e:
-            print(f"      ❌ Error PDF: {e}")
-            return None
+        except: return None
 
-    def _guardar_temporal(self, uni, carrera, url_origen, url_malla, texto):
-        if texto and len(texto) > 200:
+    def _guardar(self, uni, carrera, url_origen, url_malla, texto):
+        """Guarda en memoria si hay datos válidos"""
+        if texto and len(texto) > 50:
             self.dataset.append({
                 'universidad': uni,
                 'carrera': carrera,
                 'url_origen': url_origen,
                 'url_malla': url_malla,
-                'contenido_malla': texto[:25000]
+                'contenido_malla': texto[:40000]
             })
+            print(f"      ✅ GUARDADO: {carrera[:40]}")
 
-    def guardar_y_limpiar(self, nombre_archivo):
-        """Guarda la universidad actual en su propio JSON y limpia la memoria."""
+    def finalizar(self):
+        """Genera el JSON final"""
         if not self.dataset:
-            print(f"⚠️ No hay datos de {nombre_archivo} para guardar.")
+            print(f"⚠️ UTMACH: No se extrajeron datos. Revisa si la web está caída.")
             return
-
         df = pd.DataFrame(self.dataset)
-        ruta = os.path.join("data", f"{nombre_archivo}.json")
-        
-        # Guardamos archivo individual
+        ruta = os.path.join("data", "UTMACH.json")
         df.to_json(ruta, orient='records', indent=4, force_ascii=False)
-        print(f"\n💾 ARCHIVO CREADO: {ruta} ({len(df)} carreras)")
+        print(f"\n💾 ÉXITO: {ruta} ({len(df)} carreras guardadas)")
+
+    # --- LÓGICA DE EXTRACCIÓN PROFUNDA ---
+    def _analizar_profundo(self, url):
+        """Entra a la página de la carrera y busca PDF o Texto"""
+        html = self.safe_get(url)
+        if not html: return
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # Intentar obtener el nombre limpio de la carrera
+        h1 = soup.find('h1')
+        nombre = h1.text.strip() if h1 else url.split('/')[-2].replace('-', ' ').title()
+
+        content, origin = "", "HTML"
+
+        # 1. Buscar PDF (Prioridad: Mallas Curriculares)
+        for a in soup.find_all('a', href=True):
+            href_low = a['href'].lower()
+            if href_low.endswith('.pdf'):
+                # Palabras clave que indican que el PDF es importante
+                if any(k in href_low for k in ['malla', 'plan', 'curricu', 'asignatura']) or "malla" in a.text.lower():
+                    pdf_link = urljoin(url, a['href'])
+                    content = self.extract_text_from_pdf(pdf_link)
+                    if content:
+                        origin = "PDF"
+                        break
         
-        # ¡IMPORTANTE! Limpiamos la memoria para la siguiente universidad
-        self.dataset = [] 
-
-    # ==========================================
-    # 1. UTEQ (Quevedo)
-    # ==========================================
-    def scrape_uteq(self):
-        print("\n--- Scrapeando UTEQ ---")
-        base = "https://www.uteq.edu.ec/es/grado/carreras"
-        try:
-            resp = requests.get(base, headers=HEADERS, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            for link in soup.find_all('a', href=True):
-                url = urljoin(base, link['href'])
-                if "/carrera/" in url:
-                    self._deep_uteq(url, link.text.strip())
-        except Exception as e: print(f"Error UTEQ: {e}")
-        # AL FINALIZAR UTEQ, GUARDAMOS SU PROPIO ARCHIVO
-        self.guardar_y_limpiar("UTEQ")
-
-    def _deep_uteq(self, url, nombre):
-        try:
-            resp = requests.get(url, headers=HEADERS, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            for a in soup.find_all('a', href=True):
-                if "malla" in a.text.lower() or a['href'].endswith('.pdf'):
-                    pdf = urljoin(url, a['href'])
-                    if pdf.endswith('.pdf'):
-                        txt = self.extract_text_from_pdf(pdf)
-                        if txt: self._guardar_temporal('UTEQ', nombre, url, pdf, txt)
-                        break
-        except: pass
-
-    # ==========================================
-    # 2. UTB (Babahoyo)
-    # ==========================================
-    def scrape_utb(self):
-        print("\n--- Scrapeando UTB ---")
-        urls = ["http://vice-academico.utb.edu.ec/content-320", "https://www.utb.edu.ec"]
-        for base in urls:
-            try:
-                resp = requests.get(base, headers=HEADERS, timeout=20, verify=False)
-                soup = BeautifulSoup(resp.content, 'html.parser')
-                for link in soup.find_all('a', href=True):
-                    href = link['href']
-                    txt = link.text.strip().lower()
-                    if href.lower().endswith('.pdf') and ("malla" in txt or "pensum" in txt):
-                        full = urljoin(base, href)
-                        # Chequeo manual de duplicados en la lista actual
-                        if not any(d['url_malla'] == full for d in self.dataset):
-                            print(f"   🔎 UTB: {link.text.strip()[:30]}")
-                            raw = self.extract_text_from_pdf(full)
-                            if raw: self._guardar_temporal('UTB', link.text.strip(), base, full, raw)
-            except: pass
-        self.guardar_y_limpiar("UTB")
-
-    # ==========================================
-    # 3. UDA (Azuay) - Con Limpieza de HTML
-    # ==========================================
-    def scrape_uda(self):
-        print("\n--- Scrapeando UDA ---")
-        base = "https://www.uazuay.edu.ec/estudios-de-grado"
-        try:
-            resp = requests.get(base, headers=HEADERS, timeout=20, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            seen = set()
-            for link in soup.find_all('a', href=True):
-                if "/carreras/" in link['href'] and len(link.text) > 5:
-                    full = urljoin(base, link['href'])
-                    if full not in seen:
-                        seen.add(full)
-                        print(f"   🔎 UDA: {link.text.strip()}")
-                        self._deep_uda(full, link.text.strip())
-        except: pass
-        self.guardar_y_limpiar("UDA")
-
-    def _deep_uda(self, url, nombre):
-        try:
-            resp = requests.get(url, headers=HEADERS, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            content, origin = "", "HTML"
+        # 2. Si no hay PDF, guardar el Texto de la Web
+        if not content:
+            # Eliminar menús y pies de página para limpiar la basura
+            for tag in soup.select('header, footer, nav, script, style, .elementor-location-header'): 
+                tag.decompose()
             
-            # Plan A: PDF
-            for a in soup.find_all('a', href=True):
-                if a['href'].endswith('.pdf') and "malla" in a.text.lower():
-                    content = self.extract_text_from_pdf(urljoin(url, a['href']))
-                    if content: 
-                        origin = "PDF"
-                        break
-            
-            # Plan B: HTML Limpio
-            if not content:
-                for tag in soup.select('header, footer, nav, form, script, style, .search-block-form'):
-                    tag.decompose()
-                main = soup.find('div', class_='region-content') or soup.body
-                if main:
-                    content = " ".join(main.get_text(separator=' ').split())
+            # Buscar el contenido principal (UTMACH usa Elementor)
+            main = soup.find('div', class_='elementor-section-wrap') or soup.find('main') or soup.body
+            if main:
+                content = " ".join(main.get_text(separator=' ').split())
 
-            if content and len(content) > 200:
-                self._guardar_temporal('UDA', nombre, url, f"{origin}", content)
-        except: pass
+        self._guardar("UTMACH", nombre, url, f"{origin}", content)
 
     # ==========================================
-    # 4. UMET (Metropolitana)
+    # EJECUCIÓN: ESTRATEGIA SITEMAP (BACKDOOR)
     # ==========================================
-    def scrape_umet(self):
-        print("\n--- Scrapeando UMET ---")
-        url_base = "https://umet.edu.ec/oferta-academica/"
-        try:
-            resp = requests.get(url_base, headers=HEADERS, timeout=25, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            processed = set()
-            for link in soup.find_all('a', href=True):
-                href = link['href']
-                if "umet.edu.ec" in href and len(link.text) > 8:
-                    if any(x in href for x in ['login', 'noticias', 'eventos']): continue
-                    if href not in processed:
-                        processed.add(href)
-                        print(f"   🔎 UMET: {link.text.strip()[:30]}")
-                        self._deep_umet(href, link.text.strip())
-        except: pass
-        self.guardar_y_limpiar("UMET")
+    def scrape_utmach(self):
+        print("\n--- Scrapeando UTMACH (Estrategia Sitemaps XML) ---")
+        
+        # UTMACH usa WordPress, estos son los mapas donde están las páginas
+        sitemaps = [
+            "https://utmachala.edu.ec/page-sitemap.xml",
+            "https://utmachala.edu.ec/sitemap.xml"
+        ]
+        
+        urls_procesadas = set()
 
-    def _deep_umet(self, url, name):
-        try:
-            resp = requests.get(url, headers=HEADERS, verify=False)
-            soup = BeautifulSoup(resp.content, 'html.parser')
-            content, origin = "", "HTML"
+        for sitemap in sitemaps:
+            print(f"   🗺️ Leyendo mapa: {sitemap}...")
+            xml = self.safe_get(sitemap)
             
-            for a in soup.find_all('a', href=True):
-                if "malla" in a.text.lower() or a['href'].endswith('.pdf'):
-                    content = self.extract_text_from_pdf(a['href'])
-                    if content: 
-                        origin = "PDF"
-                        break
-            
-            if not content:
-                for tag in soup.select('header, footer, nav, .elementor-location-header'):
-                    tag.decompose()
-                main = soup.find('div', class_='elementor-section-wrap') or soup.body
-                if main: content = " ".join(main.get_text(separator=' ').split())
+            if not xml or len(xml) < 500:
+                print("      ❌ Mapa vacío o inaccesible.")
+                continue
 
-            if content and len(content) > 300:
-                self._guardar_temporal('UMET', name, url, f"{origin}", content)
-        except: pass
+            # Usamos 'html.parser' porque es más robusto leyendo XMLs sucios
+            soup = BeautifulSoup(xml, 'html.parser')
+            
+            # Buscamos las etiquetas <loc> que contienen las URLs
+            locs = soup.find_all('loc')
+            print(f"      ✅ Enlaces encontrados: {len(locs)}")
+
+            for tag in locs:
+                url = tag.text.strip()
+                url_low = url.lower()
+                
+                # --- FILTROS DE CARRERA ---
+                if "utmachala.edu.ec" in url_low:
+                    # 1. Palabras Clave (Debe tener al menos una)
+                    keywords = ['carrera', 'ingenieria', 'licenciatura', 'medicina', 'enfermeria', 'agronomia', 'economía', 'turismo', 'alimentos', 'civil', 'sistemas', 'aquacultura', 'docencia', 'pedagogia']
+                    
+                    # 2. Palabras Prohibidas (No debe tener ninguna)
+                    basura = ['noticia', 'evento', 'horario', 'matricula', 'bienestar', 'investigacion', 'autoridades', 'transparencia', 'jpg', 'png']
+
+                    if any(k in url_low for k in keywords) and not any(b in url_low for b in basura):
+                        if url not in urls_procesadas:
+                            print(f"      🎯 Candidata: {url}")
+                            self._analizar_profundo(url)
+                            urls_procesadas.add(url)
+        
+        self.finalizar()
 
 if __name__ == "__main__":
     bot = AcademicScraper()
-    
-    # Cada función ahora hace: Scrape -> Guarda Archivo -> Limpia Memoria
-    bot.scrape_uteq()
-    bot.scrape_utb()
-    bot.scrape_uda()
-    bot.scrape_umet()
-    
-    print("\n✅ ¡TODO TERMINADO! Revisa tu carpeta 'data'")
+    bot.scrape_utmach()
