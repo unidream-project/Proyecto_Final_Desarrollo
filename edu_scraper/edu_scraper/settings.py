@@ -19,7 +19,7 @@ ADDONS = {}
 #USER_AGENT = "edu_scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+#ROBOTSTXT_OBEY = True
 
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
@@ -89,3 +89,11 @@ FEED_EXPORT_ENCODING = "utf-8"
 ITEM_PIPELINES = {
     "edu_scraper.pipelines.JsonArrayPipeline": 300,
 }
+
+# settings.py
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+ROBOTSTXT_OBEY = False
+#DOWNLOAD_DELAY = 2
+#CONCURRENT_REQUESTS = 1
+
+# En settings.py

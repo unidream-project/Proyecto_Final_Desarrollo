@@ -31,3 +31,10 @@ class CareerItem(scrapy.Item):
     # =========================
     data_collection_date = scrapy.Field()
     university_contact = scrapy.Field()
+
+class MallaItem(scrapy.Item):
+    universidad = scrapy.Field()
+    carrera = scrapy.Field()
+    pensum = scrapy.Field()
+    materias = scrapy.Field()
+    totales = scrapy.Field()
