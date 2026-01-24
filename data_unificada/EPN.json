@@ -3,7 +3,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_MECÁNICA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-mecanica/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Mecánica",
@@ -290,7 +290,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_CIVIL",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-civil/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o Civil",
@@ -587,7 +587,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_SEGURIDAD_DE_REDES_DE_INFORMACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/seguridad-de-redes-de-informacion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Seguridad de Redes de Información",
@@ -602,13 +602,289 @@
     "modality": "Presencial",
     "study_plan_name": "Malla Curricular Ingeniera/o en Seguridad de Redes de Información",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2025/01/malla_seguridad_redes_informacion.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "MATD113",
+        "name": "Álgebra Lineal",
+        "semester": 1
+      },
+      {
+        "code": "MATD123",
+        "name": "Cálculo En Una Variable",
+        "semester": 1
+      },
+      {
+        "code": "FISD134",
+        "name": "Mecánica Newtoniana",
+        "semester": 1
+      },
+      {
+        "code": "QUID143",
+        "name": "Química General",
+        "semester": 1
+      },
+      {
+        "code": "ICOD111",
+        "name": "Herramientas Informáticas",
+        "semester": 1
+      },
+      {
+        "code": "CSHD111",
+        "name": "Comunicación Oral Y Escrita",
+        "semester": 1
+      },
+      {
+        "code": "MATD213",
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "semester": 2
+      },
+      {
+        "code": "MATD223",
+        "name": "Probabilidad Y Estadística Básicas",
+        "semester": 2
+      },
+      {
+        "code": "IEED232",
+        "name": "Cálculo Vectorial",
+        "semester": 2
+      },
+      {
+        "code": "IEED242",
+        "name": "Fundamentos De Electromagnetismo",
+        "semester": 2
+      },
+      {
+        "code": "IEED252",
+        "name": "Fundamentos De Programación",
+        "semester": 2
+      },
+      {
+        "code": "CSHD211",
+        "name": "Análisis Socioeconómico Y Político Del Ecuador",
+        "semester": 2
+      },
+      {
+        "code": "IEED272",
+        "name": "Electrotecnia",
+        "semester": 2
+      },
+      {
+        "code": "IEED312",
+        "name": "Matemática Avanzada",
+        "semester": 3
+      },
+      {
+        "code": "IEED323",
+        "name": "Sistemas Digitales",
+        "semester": 3
+      },
+      {
+        "code": "IEED333",
+        "name": "Dispositivos Electrónicos",
+        "semester": 3
+      },
+      {
+        "code": "ISRD342",
+        "name": "Sistemas Operativos",
+        "semester": 3
+      },
+      {
+        "code": "IEED353",
+        "name": "Fundamentos De Circuitos Eléctricos",
+        "semester": 3
+      },
+      {
+        "code": "CSHD300",
+        "name": "Asignatura De Artes Y Humanidades",
+        "semester": 3
+      },
+      {
+        "code": "IEED371",
+        "name": "Matemática Discreta",
+        "semester": 3
+      },
+      {
+        "code": "ISRD413",
+        "name": "Fundamentos De Tecnologías De La Información",
+        "semester": 4
+      },
+      {
+        "code": "ISRD423",
+        "name": "Seguridad De Redes I",
+        "semester": 4
+      },
+      {
+        "code": "ISRD433",
+        "name": "Programación Avanzada",
+        "semester": 4
+      },
+      {
+        "code": "ISRD443",
+        "name": "Bases De Datos",
+        "semester": 4
+      },
+      {
+        "code": "ISRD452",
+        "name": "Transmisión Digital",
+        "semester": 4
+      },
+      {
+        "code": "CSHD400",
+        "name": "Asignatura De Economía Y Sociedad",
+        "semester": 4
+      },
+      {
+        "code": "ISRD513",
+        "name": "Cableado Estructurado",
+        "semester": 5
+      },
+      {
+        "code": "ISRD523",
+        "name": "Fundamentos De Redes Ii",
+        "semester": 5
+      },
+      {
+        "code": "ISRD532",
+        "name": "Administración De Datos",
+        "semester": 5
+      },
+      {
+        "code": "ISRD543",
+        "name": "Administración De Servicios De Red",
+        "semester": 5
+      },
+      {
+        "code": "ISRD553",
+        "name": "Aplicaciones Móviles Y Web",
+        "semester": 5
+      },
+      {
+        "code": "ADMD511",
+        "name": "Almacenamiento Y Procesamiento Organizacional",
+        "semester": 5
+      },
+      {
+        "code": "ISRD613",
+        "name": "Criptografía",
+        "semester": 6
+      },
+      {
+        "code": "ISRD623",
+        "name": "Seguridad De Redes Ii",
+        "semester": 6
+      },
+      {
+        "code": "ISRD633",
+        "name": "Diseño De Servicios Red Con Calidad",
+        "semester": 6
+      },
+      {
+        "code": "ISRD643",
+        "name": "Aseguramiento De Red",
+        "semester": 6
+      },
+      {
+        "code": "ISRD652",
+        "name": "Hacking Ético",
+        "semester": 6
+      },
+      {
+        "code": "ADMD611",
+        "name": "Minería De Datos Y Gestión De Procesos",
+        "semester": 6
+      },
+      {
+        "code": "ISRD713",
+        "name": "Privacidad Y Protección De Datos",
+        "semester": 7
+      },
+      {
+        "code": "ISRD723",
+        "name": "Seguridad De Redes Ii",
+        "semester": 7
+      },
+      {
+        "code": "ISRD732",
+        "name": "Seguridad Cloud Computing",
+        "semester": 7
+      },
+      {
+        "code": "ISRD743",
+        "name": "Seguridad De End Points I",
+        "semester": 7
+      },
+      {
+        "code": "ISRD753",
+        "name": "Sistemas Iot",
+        "semester": 7
+      },
+      {
+        "code": "ADMD711",
+        "name": "Ingeniería Financiera",
+        "semester": 7
+      },
+      {
+        "code": "ISRD813",
+        "name": "Análisis Forense De Redes",
+        "semester": 8
+      },
+      {
+        "code": "ISRD823",
+        "name": "Seguridad De Redes Iii",
+        "semester": 8
+      },
+      {
+        "code": "ISRD832",
+        "name": "Gestión De Incidentes De Tecnologías De La Información",
+        "semester": 8
+      },
+      {
+        "code": "ISRD843",
+        "name": "Auditoría De Tecnologías De La Información",
+        "semester": 8
+      },
+      {
+        "code": "TITD101",
+        "name": "Trabajo De Integración Curricular/Preparación Examen Complexivo",
+        "semester": 8
+      },
+      {
+        "code": "ISRD853",
+        "name": "Seguridad De End Points Ii",
+        "semester": 8
+      },
+      {
+        "code": "ISRD912",
+        "name": "Regulación De La Seguridad De La Información",
+        "semester": 9
+      },
+      {
+        "code": "PRLD105",
+        "name": "Prácticas Laborales",
+        "semester": 9
+      },
+      {
+        "code": "PSCD202",
+        "name": "Prácticas De Servicio Comunitario",
+        "semester": 9
+      },
+      {
+        "code": "ISRD921",
+        "name": "Gestión De La Seguridad De La Información",
+        "semester": 9
+      },
+      {
+        "code": "TITD201",
+        "name": "Trabajo De Integración Curricular/Examen De Carácter Complexivo",
+        "semester": 9
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_QUÍMICA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-quimica/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Química",
@@ -900,7 +1176,7 @@
     "career_id": "EPN_PRESENCIAL_TECNÓLOGA_O_SUPERIOR_EN_DESARROLLO_DE_SOFTWARE",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/desarrollo-de-software/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Desarrollo de Software",
@@ -1062,7 +1338,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_CIENCIA_DE_DATOS_E_INTELIGENCIA_ARTIFICIAL",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ciencias-de-datos-e-inteligencia-artificial/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Ciencia de datos e Inteligencia Artificial",
@@ -1344,7 +1620,7 @@
     "career_id": "EPN_PRESENCIAL_ECONOMISTA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/economia/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Economista",
@@ -1586,7 +1862,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_SOFTWARE",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-software/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Software",
@@ -1601,13 +1877,269 @@
     "modality": "Presencial",
     "study_plan_name": "Malla Curricular Ingeniera/o en Software",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2025/01/malla_software.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "MATD113",
+        "name": "Álgebra Lineal",
+        "semester": 1
+      },
+      {
+        "code": "MATD123",
+        "name": "Cálculo En Una Variable",
+        "semester": 1
+      },
+      {
+        "code": "FISD134",
+        "name": "Mecánica Newtoniana",
+        "semester": 1
+      },
+      {
+        "code": "ICCD144",
+        "name": "Programación I",
+        "semester": 1
+      },
+      {
+        "code": "CSHD111",
+        "name": "Comunicación Oral Y Escrita",
+        "semester": 1
+      },
+      {
+        "code": "MATD213",
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "semester": 2
+      },
+      {
+        "code": "ICCD224",
+        "name": "Matemáticas Computacionales Y Teoría De La Computación",
+        "semester": 2
+      },
+      {
+        "code": "ICCD233",
+        "name": "Fundamentos De Electrónica Para Computación",
+        "semester": 2
+      },
+      {
+        "code": "ICCD244",
+        "name": "Programación Ii",
+        "semester": 2
+      },
+      {
+        "code": "CSHD211",
+        "name": "Análisis Socioeconómico Y Político Del Ecuador",
+        "semester": 2
+      },
+      {
+        "code": "MATD223",
+        "name": "Probabilidad Y Estadísticas Básicas",
+        "semester": 3
+      },
+      {
+        "code": "ICCD323",
+        "name": "Sistemas Operativos",
+        "semester": 3
+      },
+      {
+        "code": "ICCD332",
+        "name": "Arquitectura De Computadores",
+        "semester": 3
+      },
+      {
+        "code": "ICCD343",
+        "name": "Estructura De Datos Y Algoritmos I",
+        "semester": 3
+      },
+      {
+        "code": "ICCD353",
+        "name": "Fundamentos De Redes Y Conectividad",
+        "semester": 3
+      },
+      {
+        "code": "CSHD300",
+        "name": "Asignatura De Artes Y Humanidades",
+        "semester": 3
+      },
+      {
+        "code": "ISWD414",
+        "name": "Ingeniería De Software Y Requerimientos",
+        "semester": 4
+      },
+      {
+        "code": "ICCD422",
+        "name": "Compiladores Y Lenguajes",
+        "semester": 4
+      },
+      {
+        "code": "ISWD433",
+        "name": "Fundamentos De Sistemas De Información",
+        "semester": 4
+      },
+      {
+        "code": "ICCD442",
+        "name": "Estructura De Datos Y Algoritmos Ii",
+        "semester": 4
+      },
+      {
+        "code": "ISWD453",
+        "name": "Fundamentos De Bases De Datos",
+        "semester": 4
+      },
+      {
+        "code": "CSHD400",
+        "name": "Asignatura De Economía Y Sociedad",
+        "semester": 4
+      },
+      {
+        "code": "ADMD511",
+        "name": "Gestión Organizacional",
+        "semester": 5
+      },
+      {
+        "code": "ISWD523",
+        "name": "Diseño De Software",
+        "semester": 5
+      },
+      {
+        "code": "ICCD533",
+        "name": "Computación Gráfica",
+        "semester": 5
+      },
+      {
+        "code": "ISWD543",
+        "name": "Inteligencia Artificial Y Aprendizaje Automático",
+        "semester": 5
+      },
+      {
+        "code": "ISWD553",
+        "name": "Bases De Datos Distribuídas",
+        "semester": 5
+      },
+      {
+        "code": "PSCD202",
+        "name": "Prácticas De Servicio Comunitario",
+        "semester": 5
+      },
+      {
+        "code": "ISWD613",
+        "name": "Aplicaciones Web",
+        "semester": 6
+      },
+      {
+        "code": "ISWD622",
+        "name": "Metodologías Ágiles",
+        "semester": 6
+      },
+      {
+        "code": "ISWD633",
+        "name": "Diseño Y Construcción De Software",
+        "semester": 6
+      },
+      {
+        "code": "ICCD643",
+        "name": "Modelos Evolutivos De Calidad",
+        "semester": 6
+      },
+      {
+        "code": "ISWD652",
+        "name": "Tecnologías De Seguridad",
+        "semester": 6
+      },
+      {
+        "code": "ADMD611",
+        "name": "Seguridad De Procesos",
+        "semester": 6
+      },
+      {
+        "code": "ADMD711",
+        "name": "Gestión Financiera E Ingeniería",
+        "semester": 6
+      },
+      {
+        "code": "ISWD713",
+        "name": "Aplicaciones Móviles",
+        "semester": 7
+      },
+      {
+        "code": "ISWD723",
+        "name": "Interacción Humano Computador",
+        "semester": 7
+      },
+      {
+        "code": "ISWD732",
+        "name": "Usabilidad Y Accesibilidad",
+        "semester": 7
+      },
+      {
+        "code": "ISWD743",
+        "name": "Business Intelligence",
+        "semester": 7
+      },
+      {
+        "code": "ISWD752",
+        "name": "Verificación Y Validación De Software",
+        "semester": 7
+      },
+      {
+        "code": "ISWD762",
+        "name": "Automatización De Procesos",
+        "semester": 7
+      },
+      {
+        "code": "ISWD813",
+        "name": "Aplicaciones Web Avanzadas",
+        "semester": 8
+      },
+      {
+        "code": "ISWD823",
+        "name": "Desarrollo De Juegos Interactivos",
+        "semester": 8
+      },
+      {
+        "code": "ISWD833",
+        "name": "Auditoría Informática",
+        "semester": 8
+      },
+      {
+        "code": "ICCD842",
+        "name": "Profesionalismo En Informática",
+        "semester": 8
+      },
+      {
+        "code": "ISWD853",
+        "name": "Desarrollo De Software Seguro",
+        "semester": 8
+      },
+      {
+        "code": "TITD104",
+        "name": "Diseño De Integración Curricular / Preparación Examen Complexivo",
+        "semester": 8
+      },
+      {
+        "code": "ISWD913",
+        "name": "Sistemas Embebidos",
+        "semester": 9
+      },
+      {
+        "code": "ISWD922",
+        "name": "Gestión De Proyectos De Software",
+        "semester": 9
+      },
+      {
+        "code": "PRLD105",
+        "name": "Prácticas Laborales",
+        "semester": 9
+      },
+      {
+        "code": "TITD201",
+        "name": "Trabajo De Integración Curricular / Examen Complexivo",
+        "semester": 9
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_TECNÓLOGA_O_SUPERIOR_EN_ELECTROMECÁNICA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/electromecanica/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Electromecánica",
@@ -1774,7 +2306,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_SISTEMAS_DE_INFORMACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-sistemas-de-informacion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Sistemas de Información",
@@ -2051,7 +2583,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_PETRÓLEOS",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-petroleos/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Petróleos",
@@ -2363,7 +2895,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_MATEMÁTICA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/matematica-aplicada/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Matemática",
@@ -2378,13 +2910,239 @@
     "modality": "Presencial",
     "study_plan_name": "Malla Curricular Ingeniera/o en Matemática",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2025/01/malla_matematica_aplicada.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "MATD115",
+        "name": "Álgebra Lineal",
+        "semester": 1
+      },
+      {
+        "code": "MATD124",
+        "name": "Cálculo Diferencial",
+        "semester": 1
+      },
+      {
+        "code": "MATD133",
+        "name": "Fundamentos De La Matemática",
+        "semester": 1
+      },
+      {
+        "code": "MATD141",
+        "name": "Pensamiento Científico",
+        "semester": 1
+      },
+      {
+        "code": "ICOD151",
+        "name": "Tecnologías De La Información Para Cálculo Científico",
+        "semester": 1
+      },
+      {
+        "code": "CSHD111",
+        "name": "Comunicación Oral Y Escrita",
+        "semester": 1
+      },
+      {
+        "code": "MTMD212",
+        "name": "Álgebra Afín",
+        "semester": 2
+      },
+      {
+        "code": "MATD224",
+        "name": "Cálculo Integral",
+        "semester": 2
+      },
+      {
+        "code": "MATD234",
+        "name": "Probabilidad Y Estadística",
+        "semester": 2
+      },
+      {
+        "code": "FISD244",
+        "name": "Mecánica Newtoniana",
+        "semester": 2
+      },
+      {
+        "code": "CSHD211",
+        "name": "Principios De Análisis Socioeconómico Y Político Del Ecuador",
+        "semester": 2
+      },
+      {
+        "code": "MATD314",
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "semester": 3
+      },
+      {
+        "code": "MATD324",
+        "name": "Cálculo Vectorial",
+        "semester": 3
+      },
+      {
+        "code": "IMAD333",
+        "name": "Investigación Por Muestreo",
+        "semester": 3
+      },
+      {
+        "code": "IMAD344",
+        "name": "Programación Estructurada",
+        "semester": 3
+      },
+      {
+        "code": "MTMD414",
+        "name": "Cálculo De Fourier Con Aplicaciones A Las Edps",
+        "semester": 4
+      },
+      {
+        "code": "MTMD424",
+        "name": "Análisis Complejo",
+        "semester": 4
+      },
+      {
+        "code": "IMAD433",
+        "name": "Control De Calidad Y Diseño De Experimentos",
+        "semester": 4
+      },
+      {
+        "code": "IMAD443",
+        "name": "Estructura De Datos",
+        "semester": 4
+      },
+      {
+        "code": "CSHD300",
+        "name": "Asignatura De Artes Y Humanidades",
+        "semester": 4
+      },
+      {
+        "code": "MTMD513",
+        "name": "Introducción A La Medida Y Espacios De Banach Y Hilbert",
+        "semester": 5
+      },
+      {
+        "code": "MTMD524",
+        "name": "Álgebra Lineal Numérica",
+        "semester": 5
+      },
+      {
+        "code": "IMAD534",
+        "name": "Análisis Multivariado",
+        "semester": 5
+      },
+      {
+        "code": "IMAD543",
+        "name": "Programación Lineal",
+        "semester": 5
+      },
+      {
+        "code": "ADMD511",
+        "name": "Gestión Organizacional",
+        "semester": 5
+      },
+      {
+        "code": "IMAD614",
+        "name": "Teoría De La Optimización No Lineal",
+        "semester": 6
+      },
+      {
+        "code": "IMAD623",
+        "name": "Teoría De Juegos",
+        "semester": 6
+      },
+      {
+        "code": "IMAD634",
+        "name": "Procesos Estocásticos",
+        "semester": 6
+      },
+      {
+        "code": "IMAD643",
+        "name": "Análisis Numérico De Edos Y Edps",
+        "semester": 6
+      },
+      {
+        "code": "ADMD611",
+        "name": "Gestión De La Calidad",
+        "semester": 6
+      },
+      {
+        "code": "IMAD714",
+        "name": "Procesos Estocásticos Ii",
+        "semester": 7
+      },
+      {
+        "code": "IMAD724",
+        "name": "Análisis De Datos Multivariado Y Modelos Lineales",
+        "semester": 7
+      },
+      {
+        "code": "IMAD733",
+        "name": "Implementación Y Programación Entera",
+        "semester": 7
+      },
+      {
+        "code": "IMAD743",
+        "name": "Simulación",
+        "semester": 7
+      },
+      {
+        "code": "ADMD711",
+        "name": "Ingeniería Financiera",
+        "semester": 7
+      },
+      {
+        "code": "IMAD814",
+        "name": "Series Temporales",
+        "semester": 8
+      },
+      {
+        "code": "IMAD824",
+        "name": "Econometría",
+        "semester": 8
+      },
+      {
+        "code": "IMAD833",
+        "name": "Estadística Matemática",
+        "semester": 8
+      },
+      {
+        "code": "IMAD843",
+        "name": "Matemática Actuarial",
+        "semester": 8
+      },
+      {
+        "code": "TITD101",
+        "name": "Diseño De Trabajo De Integración Curricular / Preparación Examen Complexivo",
+        "semester": 8
+      },
+      {
+        "code": "IMAD912",
+        "name": "Modelos De Riesgo",
+        "semester": 9
+      },
+      {
+        "code": "PRLD105",
+        "name": "Prácticas Laborales",
+        "semester": 9
+      },
+      {
+        "code": "PSCD202",
+        "name": "Prácticas De Servicio Comunitario",
+        "semester": 9
+      },
+      {
+        "code": "CSHD400",
+        "name": "Asignatura De Economía Y Sociedad",
+        "semester": 9
+      },
+      {
+        "code": "TITD201",
+        "name": "Trabajo De Integración Curricular / Examen De Carácter Complexivo",
+        "semester": 9
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_ELECTRÓNICA_Y_AUTOMATIZACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-electronica-y-automatizacion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Electrónica y Automatización",
@@ -2681,7 +3439,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_CIENCIAS_DE_LA_COMPUTACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-ciencias-de-la-computacion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Ciencias de la Computación",
@@ -2953,7 +3711,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_AGROINDUSTRIAL",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-agroindustria/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o Agroindustrial",
@@ -3245,7 +4003,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_GEOLOGÍA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-geologia/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Geología",
@@ -3537,7 +4295,7 @@
     "career_id": "EPN_PRESENCIAL_TECNÓLOGA_O_SUPERIOR_EN_AGUA_Y_SANEAMIENTO_AMBIENTAL",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/agua-y-saneamiento-ambiental/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Agua y Saneamiento Ambiental",
@@ -3704,7 +4462,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_DE_LA_PRODUCCIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-de-la-produccion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o de la Producción",
@@ -4001,7 +4759,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_MATERIALES",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-materiales/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Materiales",
@@ -4293,7 +5051,7 @@
     "career_id": "EPN_PRESENCIAL_FÍSICA_O",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/fisica/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Física/o",
@@ -4535,7 +5293,7 @@
     "career_id": "EPN_DUAL_TECNÓLOGA_O_SUPERIOR_EN_PROCESAMIENTO_DE_ALIMENTOS",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/procesamiento-de-alimentos/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Procesamiento de Alimentos",
@@ -4757,7 +5515,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_ELÉCTRICA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-electricidad/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o Eléctrica",
@@ -5069,7 +5827,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_TECNOLOGÍAS_DE_LA_INFORMACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-telecomunicaciones/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Tecnologías de la Información",
@@ -5084,13 +5842,294 @@
     "modality": "Presencial",
     "study_plan_name": "Malla Curricular Ingeniera/o en Tecnologías de la Información",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2024/08/malla_tecnologias_informacion.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "MATD113",
+        "name": "Álgebra Lineal",
+        "semester": 1
+      },
+      {
+        "code": "MATD123",
+        "name": "Cálculo En Una Variable",
+        "semester": 1
+      },
+      {
+        "code": "FISD134",
+        "name": "Mecánica Newtoniana",
+        "semester": 1
+      },
+      {
+        "code": "QUID143",
+        "name": "Química General",
+        "semester": 1
+      },
+      {
+        "code": "ICOD111",
+        "name": "Herramientas Informáticas",
+        "semester": 1
+      },
+      {
+        "code": "CSHD111",
+        "name": "Comunicación Oral Y Escrita",
+        "semester": 1
+      },
+      {
+        "code": "MATD213",
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "semester": 2
+      },
+      {
+        "code": "MATD223",
+        "name": "Probabilidad Y Estadística Básicas",
+        "semester": 2
+      },
+      {
+        "code": "IEED232",
+        "name": "Cálculo Vectorial",
+        "semester": 2
+      },
+      {
+        "code": "IEED242",
+        "name": "Fundamentos De Electromagnetismo",
+        "semester": 2
+      },
+      {
+        "code": "IEED252",
+        "name": "Análisis De Programación",
+        "semester": 2
+      },
+      {
+        "code": "CSHD211",
+        "name": "Análisis Socioeconómico Y Político Del Ecuador",
+        "semester": 2
+      },
+      {
+        "code": "IEED272",
+        "name": "Electrotecnia",
+        "semester": 2
+      },
+      {
+        "code": "IEED312",
+        "name": "Matemática Avanzada",
+        "semester": 3
+      },
+      {
+        "code": "IEED323",
+        "name": "Sistemas Digitales",
+        "semester": 3
+      },
+      {
+        "code": "IEED333",
+        "name": "Dispositivos Electrónicos",
+        "semester": 3
+      },
+      {
+        "code": "IEED342",
+        "name": "Teoría Electromagnética",
+        "semester": 3
+      },
+      {
+        "code": "IEED353",
+        "name": "Fundamentos De Circuitos Eléctricos",
+        "semester": 3
+      },
+      {
+        "code": "CSHD300",
+        "name": "Asignatura De Artes Y Humanidades",
+        "semester": 3
+      },
+      {
+        "code": "IEED371",
+        "name": "Matemática Discreta",
+        "semester": 3
+      },
+      {
+        "code": "IEED413",
+        "name": "Instalaciones Eléctricas Y Comunicaciones",
+        "semester": 4
+      },
+      {
+        "code": "TELD423",
+        "name": "Análisis De Señales Discretas Para Comunicaciones",
+        "semester": 4
+      },
+      {
+        "code": "ITID433",
+        "name": "Programación Avanzada",
+        "semester": 4
+      },
+      {
+        "code": "ITID443",
+        "name": "Bases De Datos",
+        "semester": 4
+      },
+      {
+        "code": "ITID452",
+        "name": "Sistemas Operativos",
+        "semester": 4
+      },
+      {
+        "code": "CSHD400",
+        "name": "Asignatura De Economía Y Sociedad",
+        "semester": 4
+      },
+      {
+        "code": "ITID512",
+        "name": "Sistemas De Cableado Estructurado",
+        "semester": 5
+      },
+      {
+        "code": "ITID524",
+        "name": "Transmisión Digital",
+        "semester": 5
+      },
+      {
+        "code": "TELD522",
+        "name": "Teoría De Información Y Codificación",
+        "semester": 5
+      },
+      {
+        "code": "ITID543",
+        "name": "Diseño Y Programación De Software",
+        "semester": 5
+      },
+      {
+        "code": "ITID553",
+        "name": "Sistemas Embebidos",
+        "semester": 5
+      },
+      {
+        "code": "ADMD511",
+        "name": "Gestión Organizacional",
+        "semester": 5
+      },
+      {
+        "code": "ITID612",
+        "name": "Cableado Estructurado Avanzado",
+        "semester": 6
+      },
+      {
+        "code": "ITID623",
+        "name": "Redes De Área Local",
+        "semester": 6
+      },
+      {
+        "code": "ITID633",
+        "name": "Enrutamiento",
+        "semester": 6
+      },
+      {
+        "code": "ITID643",
+        "name": "Sistemas Inalámbricos",
+        "semester": 6
+      },
+      {
+        "code": "ITID653",
+        "name": "Almacenamiento Y Procesamiento De Datos",
+        "semester": 6
+      },
+      {
+        "code": "ADMD611",
+        "name": "Gestión De Procesos Y Calidad",
+        "semester": 6
+      },
+      {
+        "code": "ITID713",
+        "name": "Aplicaciones Distribuidas",
+        "semester": 7
+      },
+      {
+        "code": "ITID723",
+        "name": "Redes De Área Extendida",
+        "semester": 7
+      },
+      {
+        "code": "ITID733",
+        "name": "Seguridad En Redes E Intranets",
+        "semester": 7
+      },
+      {
+        "code": "ITID742",
+        "name": "Aplicaciones Web Y Móviles",
+        "semester": 7
+      },
+      {
+        "code": "ITID753",
+        "name": "Ingeniería Financiera",
+        "semester": 7
+      },
+      {
+        "code": "ADMD711",
+        "name": "Null",
+        "semester": 7
+      },
+      {
+        "code": "ITID800",
+        "name": "Asignatura De Itinerario",
+        "semester": 8
+      },
+      {
+        "code": "ITID822",
+        "name": "Diseño De Redes Inalámbricas",
+        "semester": 8
+      },
+      {
+        "code": "ITID832",
+        "name": "Evaluación De Redes",
+        "semester": 8
+      },
+      {
+        "code": "ITID843",
+        "name": "Administración De Redes",
+        "semester": 8
+      },
+      {
+        "code": "ITID853",
+        "name": "Minería De Datos",
+        "semester": 8
+      },
+      {
+        "code": "ITID862",
+        "name": "Null",
+        "semester": 8
+      },
+      {
+        "code": "TITD101",
+        "name": "Trabajo De Integración Curricular / Examen Complexivo",
+        "semester": 8
+      },
+      {
+        "code": "ITID900",
+        "name": "Asignatura Itinerario Avanzada",
+        "semester": 9
+      },
+      {
+        "code": "PRLD105",
+        "name": "Prácticas Laborales",
+        "semester": 9
+      },
+      {
+        "code": "PSCD202",
+        "name": "Prácticas De Servicio Comunitario",
+        "semester": 9
+      },
+      {
+        "code": "ITID941",
+        "name": "Regulación De Las Telecomunicaciones",
+        "semester": 9
+      },
+      {
+        "code": "TITD201",
+        "name": "Trabajo De Integración Curricular / Examen Complexivo",
+        "semester": 9
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_TECNÓLOGA_O_SUPERIOR_EN_REDES_Y_TELECOMUNICACIONES",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/redes-y-telecomunicaciones/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Redes y Telecomunicaciones",
@@ -5257,7 +6296,7 @@
     "career_id": "EPN_DUAL_TECNÓLOGA_O_SUPERIOR_EN_PROCESAMIENTO_INDUSTRIAL_DE_LA_MADERA",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/procesamiento-industrial-de-la-madera/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Tecnóloga/o Superior en Procesamiento Industrial de la Madera",
@@ -5272,13 +6311,214 @@
     "modality": "Dual",
     "study_plan_name": "Malla Curricular Tecnóloga/o Superior en Procesamiento Industrial de la Madera",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2025/01/malla_procesamiento_madera.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "TPMD114",
+        "name": "Herramientas, Máquinas Y Equipos I",
+        "semester": 1
+      },
+      {
+        "code": "TPMD125",
+        "name": "Dibujo Técnico I",
+        "semester": 1
+      },
+      {
+        "code": "TPMD133",
+        "name": "Química",
+        "semester": 1
+      },
+      {
+        "code": "TPMD143",
+        "name": "Matemáticas",
+        "semester": 1
+      },
+      {
+        "code": "TPMD155",
+        "name": "Tecnología De La Madera I",
+        "semester": 1
+      },
+      {
+        "code": "CSHD162",
+        "name": "Comunicación Oral Y Escrita I",
+        "semester": 1
+      },
+      {
+        "code": "ICOD173",
+        "name": "Informática I",
+        "semester": 1
+      },
+      {
+        "code": "VPPD111",
+        "name": "Prácticas En Entidad Receptora Formadora",
+        "semester": 1
+      },
+      {
+        "code": "TPMD223",
+        "name": "Herramientas, Máquinas Y Equipos Ii",
+        "semester": 2
+      },
+      {
+        "code": "TPMD234",
+        "name": "Dibujo Técnico Ii",
+        "semester": 2
+      },
+      {
+        "code": "TPMD248",
+        "name": "Desarrollo De Producto - Fabricación Ii",
+        "semester": 2
+      },
+      {
+        "code": "TPMD255",
+        "name": "Tecnologías De La Madera Ii",
+        "semester": 2
+      },
+      {
+        "code": "CSHD262",
+        "name": "La Empresa Y Su Entorno - Cálculo De Costos",
+        "semester": 2
+      },
+      {
+        "code": "ICOD273",
+        "name": "Comunicación Oral Y Escrita Ii Informática Ii",
+        "semester": 2
+      },
+      {
+        "code": "VPPD211",
+        "name": "Prácticas En Entidad Receptora Formadora",
+        "semester": 2
+      },
+      {
+        "code": "VPPD221",
+        "name": "Proyecto Empresarial",
+        "semester": 2
+      },
+      {
+        "code": "TPMD322",
+        "name": "Legislación Laboral",
+        "semester": 3
+      },
+      {
+        "code": "TPMD336",
+        "name": "Organización Industrial",
+        "semester": 3
+      },
+      {
+        "code": "TPMD348",
+        "name": "Desarrollo De Producto - Iii",
+        "semester": 3
+      },
+      {
+        "code": "TPMD354",
+        "name": "Dibujo Técnico Industrial",
+        "semester": 3
+      },
+      {
+        "code": "CSHD362",
+        "name": "Tecnologías De La Madera Iii - Empresa Y Su Entorno",
+        "semester": 3
+      },
+      {
+        "code": "ICOD373",
+        "name": "La Diversidad Y Informática Iii",
+        "semester": 3
+      },
+      {
+        "code": "VPPD311",
+        "name": "Prácticas En Entidad Receptora Formadora",
+        "semester": 3
+      },
+      {
+        "code": "VPPD321",
+        "name": "Proyecto Empresarial",
+        "semester": 3
+      },
+      {
+        "code": "TPMD421",
+        "name": "Medio Ambiente",
+        "semester": 4
+      },
+      {
+        "code": "TPMD437",
+        "name": "Desarrollo De Productos De Madera",
+        "semester": 4
+      },
+      {
+        "code": "TPMD445",
+        "name": "Empresa Y Su Entorno - Diseño De La Construcción I",
+        "semester": 4
+      },
+      {
+        "code": "TPMD452",
+        "name": "Tecnología De Seguridad Industrial",
+        "semester": 4
+      },
+      {
+        "code": "TPMD462",
+        "name": "Entorno - Transformación De Conflictos",
+        "semester": 4
+      },
+      {
+        "code": "TPMD473",
+        "name": "Herramientas, Máquinas Y Equipos Iii",
+        "semester": 4
+      },
+      {
+        "code": "PSCD205",
+        "name": "Servicio A La Comunidad",
+        "semester": 4
+      },
+      {
+        "code": "VPPD411",
+        "name": "Prácticas En Entidad Receptora Formadora",
+        "semester": 4
+      },
+      {
+        "code": "VPPD421",
+        "name": "Proyecto Empresarial",
+        "semester": 4
+      },
+      {
+        "code": "TPMD534",
+        "name": "Desarrollo De Producto - Diseño De Espacios",
+        "semester": 5
+      },
+      {
+        "code": "TPMD544",
+        "name": "Tecnología De La Construcción Ii",
+        "semester": 5
+      },
+      {
+        "code": "TPMD552",
+        "name": "Empresa Y Su Entorno - Gestión De La Calidad",
+        "semester": 5
+      },
+      {
+        "code": "TPMD573",
+        "name": "Herramientas, Máquinas Y Equipos Iv",
+        "semester": 5
+      },
+      {
+        "code": "TITD202",
+        "name": "Trabajo De Integración Curricular",
+        "semester": 5
+      },
+      {
+        "code": "VPPD511",
+        "name": "Prácticas En Entidad Receptora Formadora",
+        "semester": 5
+      },
+      {
+        "code": "VPPD521",
+        "name": "Proyecto Empresarial",
+        "semester": 5
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_AMBIENTAL",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-ambiental/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o Ambiental",
@@ -5565,7 +6805,7 @@
     "career_id": "EPN_PRESENCIAL_INGENIERA_O_EN_TECNOLOGÍAS_DE_LA_INFORMACIÓN",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/ingenieria-en-telecomunicacion-de-la-informacion/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Ingeniera/o en Tecnologías de la Información",
@@ -5580,13 +6820,294 @@
     "modality": "Presencial",
     "study_plan_name": "Malla Curricular Ingeniera/o en Tecnologías de la Información",
     "study_plan_pdf": "https://www.epn.edu.ec/wp-content/uploads/2025/01/malla_tecnologias_informacion.pdf",
-    "subjects": []
+    "subjects": [
+      {
+        "code": "MATD113",
+        "name": "Álgebra Lineal",
+        "semester": 1
+      },
+      {
+        "code": "MATD123",
+        "name": "Cálculo En Una Variable",
+        "semester": 1
+      },
+      {
+        "code": "FISD134",
+        "name": "Mecánica Newtoniana",
+        "semester": 1
+      },
+      {
+        "code": "QUID143",
+        "name": "Química General",
+        "semester": 1
+      },
+      {
+        "code": "ICOD111",
+        "name": "Herramientas Informáticas",
+        "semester": 1
+      },
+      {
+        "code": "CSHD111",
+        "name": "Comunicación Oral Y Escrita",
+        "semester": 1
+      },
+      {
+        "code": "MATD213",
+        "name": "Ecuaciones Diferenciales Ordinarias",
+        "semester": 2
+      },
+      {
+        "code": "MATD223",
+        "name": "Probabilidad Y Estadística Básicas",
+        "semester": 2
+      },
+      {
+        "code": "IEED232",
+        "name": "Cálculo Vectorial",
+        "semester": 2
+      },
+      {
+        "code": "IEED242",
+        "name": "Fundamentos De Electromagnetismo",
+        "semester": 2
+      },
+      {
+        "code": "IEED252",
+        "name": "Análisis De Programación",
+        "semester": 2
+      },
+      {
+        "code": "CSHD211",
+        "name": "Análisis Socioeconómico Y Político Del Ecuador",
+        "semester": 2
+      },
+      {
+        "code": "IEED272",
+        "name": "Electrotecnia",
+        "semester": 2
+      },
+      {
+        "code": "IEED312",
+        "name": "Matemática Avanzada",
+        "semester": 3
+      },
+      {
+        "code": "IEED323",
+        "name": "Sistemas Digitales",
+        "semester": 3
+      },
+      {
+        "code": "IEED333",
+        "name": "Dispositivos Electrónicos",
+        "semester": 3
+      },
+      {
+        "code": "IEED342",
+        "name": "Teoría Electromagnética",
+        "semester": 3
+      },
+      {
+        "code": "IEED353",
+        "name": "Fundamentos De Circuitos Eléctricos",
+        "semester": 3
+      },
+      {
+        "code": "CSHD300",
+        "name": "Asignatura De Artes Y Humanidades",
+        "semester": 3
+      },
+      {
+        "code": "IEED371",
+        "name": "Matemática Discreta",
+        "semester": 3
+      },
+      {
+        "code": "IEED413",
+        "name": "Instalaciones Eléctricas Y Comunicaciones",
+        "semester": 4
+      },
+      {
+        "code": "TELD423",
+        "name": "Análisis De Señales Discretas Para Comunicaciones",
+        "semester": 4
+      },
+      {
+        "code": "ITID433",
+        "name": "Programación Avanzada",
+        "semester": 4
+      },
+      {
+        "code": "ITID443",
+        "name": "Bases De Datos",
+        "semester": 4
+      },
+      {
+        "code": "ITID452",
+        "name": "Sistemas Operativos",
+        "semester": 4
+      },
+      {
+        "code": "CSHD400",
+        "name": "Asignatura De Economía Y Sociedad",
+        "semester": 4
+      },
+      {
+        "code": "ITID512",
+        "name": "Sistemas De Cableado Estructurado",
+        "semester": 5
+      },
+      {
+        "code": "ITID524",
+        "name": "Transmisión Digital",
+        "semester": 5
+      },
+      {
+        "code": "TELD522",
+        "name": "Teoría De Información Y Codificación",
+        "semester": 5
+      },
+      {
+        "code": "ITID543",
+        "name": "Diseño Y Programación De Software",
+        "semester": 5
+      },
+      {
+        "code": "ITID553",
+        "name": "Sistemas Embebidos",
+        "semester": 5
+      },
+      {
+        "code": "ADMD511",
+        "name": "Gestión Organizacional",
+        "semester": 5
+      },
+      {
+        "code": "ITID612",
+        "name": "Cableado Estructurado Avanzado",
+        "semester": 6
+      },
+      {
+        "code": "ITID623",
+        "name": "Redes De Área Local",
+        "semester": 6
+      },
+      {
+        "code": "ITID633",
+        "name": "Enrutamiento",
+        "semester": 6
+      },
+      {
+        "code": "ITID643",
+        "name": "Sistemas Inalámbricos",
+        "semester": 6
+      },
+      {
+        "code": "ITID653",
+        "name": "Almacenamiento Y Procesamiento De Datos",
+        "semester": 6
+      },
+      {
+        "code": "ADMD611",
+        "name": "Gestión De Procesos Y Calidad",
+        "semester": 6
+      },
+      {
+        "code": "ITID713",
+        "name": "Aplicaciones Distribuidas",
+        "semester": 7
+      },
+      {
+        "code": "ITID723",
+        "name": "Redes De Área Extendida",
+        "semester": 7
+      },
+      {
+        "code": "ITID733",
+        "name": "Seguridad En Redes E Intranets",
+        "semester": 7
+      },
+      {
+        "code": "ITID742",
+        "name": "Aplicaciones Web Y Móviles",
+        "semester": 7
+      },
+      {
+        "code": "ITID753",
+        "name": "Ingeniería Financiera",
+        "semester": 7
+      },
+      {
+        "code": "ADMD711",
+        "name": "Null",
+        "semester": 7
+      },
+      {
+        "code": "ITID800",
+        "name": "Asignatura De Itinerario",
+        "semester": 8
+      },
+      {
+        "code": "ITID822",
+        "name": "Diseño De Redes Inalámbricas",
+        "semester": 8
+      },
+      {
+        "code": "ITID832",
+        "name": "Evaluación De Redes",
+        "semester": 8
+      },
+      {
+        "code": "ITID843",
+        "name": "Administración De Redes",
+        "semester": 8
+      },
+      {
+        "code": "ITID853",
+        "name": "Minería De Datos",
+        "semester": 8
+      },
+      {
+        "code": "ITID862",
+        "name": "Null",
+        "semester": 8
+      },
+      {
+        "code": "TITD101",
+        "name": "Trabajo De Integración Curricular / Examen Complexivo",
+        "semester": 8
+      },
+      {
+        "code": "ITID900",
+        "name": "Asignatura Itinerario Avanzada",
+        "semester": 9
+      },
+      {
+        "code": "PRLD105",
+        "name": "Prácticas Laborales",
+        "semester": 9
+      },
+      {
+        "code": "PSCD202",
+        "name": "Prácticas De Servicio Comunitario",
+        "semester": 9
+      },
+      {
+        "code": "ITID941",
+        "name": "Regulación De Las Telecomunicaciones",
+        "semester": 9
+      },
+      {
+        "code": "TITD201",
+        "name": "Trabajo De Integración Curricular / Examen Complexivo",
+        "semester": 9
+      }
+    ]
   },
   {
     "career_id": "EPN_PRESENCIAL_MATEMÁTICA_O",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/matematica/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Matemática/o",
@@ -5833,7 +7354,7 @@
     "career_id": "EPN_PRESENCIAL_LICENCIADA_O_EN_ADMINISTRACIÓN_DE_EMPRESAS",
     "university_name": "Escuela Politécnica Nacional",
     "career_url": "https://www.epn.edu.ec/licenciatura-administracion-de-empresas/",
-    "data_collection_date": "2026-01-23",
+    "data_collection_date": "2026-01-24",
     "university_type": "Pública",
     "university_contact": "admision@epn.edu.ec",
     "career_name": "Licenciada/o en Administración de Empresas",

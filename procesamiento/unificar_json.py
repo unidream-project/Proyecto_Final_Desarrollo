@@ -15,7 +15,8 @@ def generate_global_id(uni_name, modality, career_name):
         "Universidad Internacional del Ecuador": "UIDE",
         "Universidad de las Artes": "UARTES",
         "Universidad de Las Américas": "UDLA",
-        "Escuela Politécnica Nacional": "EPN"
+        "Escuela Politécnica Nacional": "EPN",
+        "Universidad Técnica de Cotopaxi": "UTC"
     }
     sigla = siglas_map.get(uni_name, re.sub(r'\W+', '', uni_name[:6]).upper())
     

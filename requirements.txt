@@ -13,3 +13,4 @@ torch
 google-generativeai
 python-dotenv
 Pillow
+pdf2image

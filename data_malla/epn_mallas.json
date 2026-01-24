@@ -783,11 +783,397 @@
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Ingeniera/o en Seguridad de Redes de Información",
         "career_url_ref": "https://www.epn.edu.ec/seguridad-de-redes-de-informacion/",
-        "pensum": "Vigente",
-        "materias": [],
+        "pensum": "2024",
+        "materias": [
+            {
+                "codigo": "MATD113",
+                "nombre": "ÁLGEBRA LINEAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD123",
+                "nombre": "CÁLCULO EN UNA VARIABLE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "FISD134",
+                "nombre": "MECÁNICA NEWTONIANA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 1
+            },
+            {
+                "codigo": "QUID143",
+                "nombre": "QUÍMICA GENERAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "ICOD111",
+                "nombre": "HERRAMIENTAS INFORMÁTICAS",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "CSHD111",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD213",
+                "nombre": "ECUACIONES DIFERENCIALES ORDINARIAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD223",
+                "nombre": "PROBABILIDAD Y ESTADÍSTICA BÁSICAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED232",
+                "nombre": "CÁLCULO VECTORIAL",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED242",
+                "nombre": "FUNDAMENTOS DE ELECTROMAGNETISMO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED252",
+                "nombre": "FUNDAMENTOS DE PROGRAMACIÓN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "CSHD211",
+                "nombre": "ANÁLISIS SOCIOECONÓMICO Y POLÍTICO DEL ECUADOR",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED272",
+                "nombre": "ELECTROTECNIA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED312",
+                "nombre": "MATEMÁTICA AVANZADA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED323",
+                "nombre": "SISTEMAS DIGITALES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED333",
+                "nombre": "DISPOSITIVOS ELECTRÓNICOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "ISRD342",
+                "nombre": "SISTEMAS OPERATIVOS",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED353",
+                "nombre": "FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "CSHD300",
+                "nombre": "ASIGNATURA DE ARTES Y HUMANIDADES",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED371",
+                "nombre": "MATEMÁTICA DISCRETA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 3
+            },
+            {
+                "codigo": "ISRD413",
+                "nombre": "FUNDAMENTOS DE TECNOLOGÍAS DE LA INFORMACIÓN",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISRD423",
+                "nombre": "SEGURIDAD DE REDES I",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISRD433",
+                "nombre": "PROGRAMACIÓN AVANZADA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISRD443",
+                "nombre": "BASES DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISRD452",
+                "nombre": "TRANSMISIÓN DIGITAL",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 4
+            },
+            {
+                "codigo": "CSHD400",
+                "nombre": "ASIGNATURA DE ECONOMÍA Y SOCIEDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISRD513",
+                "nombre": "CABLEADO ESTRUCTURADO",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISRD523",
+                "nombre": "FUNDAMENTOS DE REDES II",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISRD532",
+                "nombre": "ADMINISTRACIÓN DE DATOS",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISRD543",
+                "nombre": "ADMINISTRACIÓN DE SERVICIOS DE RED",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISRD553",
+                "nombre": "APLICACIONES MÓVILES Y WEB",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ADMD511",
+                "nombre": "ALMACENAMIENTO Y PROCESAMIENTO ORGANIZACIONAL",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISRD613",
+                "nombre": "CRIPTOGRAFÍA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISRD623",
+                "nombre": "SEGURIDAD DE REDES II",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISRD633",
+                "nombre": "DISEÑO DE SERVICIOS RED CON CALIDAD",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISRD643",
+                "nombre": "ASEGURAMIENTO DE RED",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISRD652",
+                "nombre": "HACKING ÉTICO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 6
+            },
+            {
+                "codigo": "ADMD611",
+                "nombre": "MINERÍA DE DATOS Y GESTIÓN DE PROCESOS",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISRD713",
+                "nombre": "PRIVACIDAD Y PROTECCIÓN DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISRD723",
+                "nombre": "SEGURIDAD DE REDES II",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISRD732",
+                "nombre": "SEGURIDAD CLOUD COMPUTING",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISRD743",
+                "nombre": "SEGURIDAD DE END POINTS I",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISRD753",
+                "nombre": "SISTEMAS IoT",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ADMD711",
+                "nombre": "INGENIERÍA FINANCIERA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISRD813",
+                "nombre": "ANÁLISIS FORENSE DE REDES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISRD823",
+                "nombre": "SEGURIDAD DE REDES III",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISRD832",
+                "nombre": "GESTIÓN DE INCIDENTES DE TECNOLOGÍAS DE LA INFORMACIÓN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISRD843",
+                "nombre": "AUDITORÍA DE TECNOLOGÍAS DE LA INFORMACIÓN",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "TITD101",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR/PREPARACIÓN EXAMEN COMPLEXIVO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISRD853",
+                "nombre": "SEGURIDAD DE END POINTS II",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISRD912",
+                "nombre": "REGULACIÓN DE LA SEGURIDAD DE LA INFORMACIÓN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "PRLD105",
+                "nombre": "PRÁCTICAS LABORALES",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            },
+            {
+                "codigo": "PSCD202",
+                "nombre": "PRÁCTICAS DE SERVICIO COMUNITARIO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "ISRD921",
+                "nombre": "GESTIÓN DE LA SEGURIDAD DE LA INFORMACIÓN",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 9
+            },
+            {
+                "codigo": "TITD201",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR/EXAMEN DE CARÁCTER COMPLEXIVO",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            }
+        ],
         "totales": {
-            "total_creditos": 0,
-            "total_horas": 0
+            "total_creditos": 135,
+            "total_horas": 6480
         }
     },
     {
@@ -2088,11 +2474,369 @@
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Ingeniera/o en Software",
         "career_url_ref": "https://www.epn.edu.ec/ingenieria-en-software/",
-        "pensum": "Vigente",
-        "materias": [],
+        "pensum": "2020",
+        "materias": [
+            {
+                "codigo": "MATD113",
+                "nombre": "ÁLGEBRA LINEAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD123",
+                "nombre": "CÁLCULO EN UNA VARIABLE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "FISD134",
+                "nombre": "MECÁNICA NEWTONIANA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 1
+            },
+            {
+                "codigo": "ICCD144",
+                "nombre": "PROGRAMACIÓN I",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 1
+            },
+            {
+                "codigo": "CSHD111",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD213",
+                "nombre": "ECUACIONES DIFERENCIALES ORDINARIAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "ICCD224",
+                "nombre": "MATEMÁTICAS COMPUTACIONALES Y TEORÍA DE LA COMPUTACIÓN",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 2
+            },
+            {
+                "codigo": "ICCD233",
+                "nombre": "FUNDAMENTOS DE ELECTRÓNICA PARA COMPUTACIÓN",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "ICCD244",
+                "nombre": "PROGRAMACIÓN II",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 2
+            },
+            {
+                "codigo": "CSHD211",
+                "nombre": "ANÁLISIS SOCIOECONÓMICO Y POLÍTICO DEL ECUADOR",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD223",
+                "nombre": "PROBABILIDAD Y ESTADÍSTICAS BÁSICAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "ICCD323",
+                "nombre": "SISTEMAS OPERATIVOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "ICCD332",
+                "nombre": "ARQUITECTURA DE COMPUTADORES",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 3
+            },
+            {
+                "codigo": "ICCD343",
+                "nombre": "ESTRUCTURA DE DATOS Y ALGORITMOS I",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "ICCD353",
+                "nombre": "FUNDAMENTOS DE REDES Y CONECTIVIDAD",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "CSHD300",
+                "nombre": "ASIGNATURA DE ARTES Y HUMANIDADES",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 3
+            },
+            {
+                "codigo": "ISWD414",
+                "nombre": "INGENIERÍA DE SOFTWARE Y REQUERIMIENTOS",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 4
+            },
+            {
+                "codigo": "ICCD422",
+                "nombre": "COMPILADORES Y LENGUAJES",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISWD433",
+                "nombre": "FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ICCD442",
+                "nombre": "ESTRUCTURA DE DATOS Y ALGORITMOS II",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 4
+            },
+            {
+                "codigo": "ISWD453",
+                "nombre": "FUNDAMENTOS DE BASES DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "CSHD400",
+                "nombre": "ASIGNATURA DE ECONOMÍA Y SOCIEDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 4
+            },
+            {
+                "codigo": "ADMD511",
+                "nombre": "GESTIÓN ORGANIZACIONAL",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISWD523",
+                "nombre": "DISEÑO DE SOFTWARE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ICCD533",
+                "nombre": "COMPUTACIÓN GRÁFICA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISWD543",
+                "nombre": "INTELIGENCIA ARTIFICIAL Y APRENDIZAJE AUTOMÁTICO",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISWD553",
+                "nombre": "BASES DE DATOS DISTRIBUÍDAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "PSCD202",
+                "nombre": "PRÁCTICAS DE SERVICIO COMUNITARIO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 5
+            },
+            {
+                "codigo": "ISWD613",
+                "nombre": "APLICACIONES WEB",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISWD622",
+                "nombre": "METODOLOGÍAS ÁGILES",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISWD633",
+                "nombre": "DISEÑO Y CONSTRUCCIÓN DE SOFTWARE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ICCD643",
+                "nombre": "MODELOS EVOLUTIVOS DE CALIDAD",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISWD652",
+                "nombre": "TECNOLOGÍAS DE SEGURIDAD",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 6
+            },
+            {
+                "codigo": "ADMD611",
+                "nombre": "SEGURIDAD DE PROCESOS",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 6
+            },
+            {
+                "codigo": "ADMD711",
+                "nombre": "GESTIÓN FINANCIERA E INGENIERÍA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 6
+            },
+            {
+                "codigo": "ISWD713",
+                "nombre": "APLICACIONES MÓVILES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD723",
+                "nombre": "INTERACCIÓN HUMANO COMPUTADOR",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD732",
+                "nombre": "USABILIDAD Y ACCESIBILIDAD",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD743",
+                "nombre": "BUSINESS INTELLIGENCE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD752",
+                "nombre": "VERIFICACIÓN Y VALIDACIÓN DE SOFTWARE",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD762",
+                "nombre": "AUTOMATIZACIÓN DE PROCESOS",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 7
+            },
+            {
+                "codigo": "ISWD813",
+                "nombre": "APLICACIONES WEB AVANZADAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISWD823",
+                "nombre": "DESARROLLO DE JUEGOS INTERACTIVOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISWD833",
+                "nombre": "AUDITORÍA INFORMÁTICA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ICCD842",
+                "nombre": "PROFESIONALISMO EN INFORMÁTICA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISWD853",
+                "nombre": "DESARROLLO DE SOFTWARE SEGURO",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "TITD104",
+                "nombre": "DISEÑO DE INTEGRACIÓN CURRICULAR / PREPARACIÓN EXAMEN COMPLEXIVO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 8
+            },
+            {
+                "codigo": "ISWD913",
+                "nombre": "SISTEMAS EMBEBIDOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 9
+            },
+            {
+                "codigo": "ISWD922",
+                "nombre": "GESTIÓN DE PROYECTOS DE SOFTWARE",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "PRLD105",
+                "nombre": "PRÁCTICAS LABORALES",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            },
+            {
+                "codigo": "TITD201",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR / EXAMEN COMPLEXIVO",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            }
+        ],
         "totales": {
-            "total_creditos": 0,
-            "total_horas": 0
+            "total_creditos": 135,
+            "total_horas": 6480
         }
     },
     {
@@ -3102,11 +3846,327 @@
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Ingeniera/o en Matemática",
         "career_url_ref": "https://www.epn.edu.ec/matematica-aplicada/",
-        "pensum": "Vigente",
-        "materias": [],
+        "pensum": "2020",
+        "materias": [
+            {
+                "codigo": "MATD115",
+                "nombre": "ÁLGEBRA LINEAL",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD124",
+                "nombre": "CÁLCULO DIFERENCIAL",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD133",
+                "nombre": "FUNDAMENTOS DE LA MATEMÁTICA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD141",
+                "nombre": "PENSAMIENTO CIENTÍFICO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "ICOD151",
+                "nombre": "TECNOLOGÍAS DE LA INFORMACIÓN PARA CÁLCULO CIENTÍFICO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "CSHD111",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "MTMD212",
+                "nombre": "ÁLGEBRA AFÍN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD224",
+                "nombre": "CÁLCULO INTEGRAL",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD234",
+                "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 2
+            },
+            {
+                "codigo": "FISD244",
+                "nombre": "MECÁNICA NEWTONIANA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 2
+            },
+            {
+                "codigo": "CSHD211",
+                "nombre": "PRINCIPIOS DE ANÁLISIS SOCIOECONÓMICO Y POLÍTICO DEL ECUADOR",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD314",
+                "nombre": "ECUACIONES DIFERENCIALES ORDINARIAS",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 3
+            },
+            {
+                "codigo": "MATD324",
+                "nombre": "CÁLCULO VECTORIAL",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 3
+            },
+            {
+                "codigo": "IMAD333",
+                "nombre": "INVESTIGACIÓN POR MUESTREO",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "IMAD344",
+                "nombre": "PROGRAMACIÓN ESTRUCTURADA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 3
+            },
+            {
+                "codigo": "MTMD414",
+                "nombre": "CÁLCULO DE FOURIER CON APLICACIONES A LAS EDPs",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 4
+            },
+            {
+                "codigo": "MTMD424",
+                "nombre": "ANÁLISIS COMPLEJO",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 4
+            },
+            {
+                "codigo": "IMAD433",
+                "nombre": "CONTROL DE CALIDAD Y DISEÑO DE EXPERIMENTOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "IMAD443",
+                "nombre": "ESTRUCTURA DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "CSHD300",
+                "nombre": "ASIGNATURA DE ARTES Y HUMANIDADES",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 4
+            },
+            {
+                "codigo": "MTMD513",
+                "nombre": "INTRODUCCIÓN A LA MEDIDA Y ESPACIOS DE BANACH Y HILBERT",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "MTMD524",
+                "nombre": "ÁLGEBRA LINEAL NUMÉRICA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 5
+            },
+            {
+                "codigo": "IMAD534",
+                "nombre": "ANÁLISIS MULTIVARIADO",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 5
+            },
+            {
+                "codigo": "IMAD543",
+                "nombre": "PROGRAMACIÓN LINEAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ADMD511",
+                "nombre": "GESTIÓN ORGANIZACIONAL",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 5
+            },
+            {
+                "codigo": "IMAD614",
+                "nombre": "TEORÍA DE LA OPTIMIZACIÓN NO LINEAL",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 6
+            },
+            {
+                "codigo": "IMAD623",
+                "nombre": "TEORÍA DE JUEGOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "IMAD634",
+                "nombre": "PROCESOS ESTOCÁSTICOS",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 6
+            },
+            {
+                "codigo": "IMAD643",
+                "nombre": "ANÁLISIS NUMÉRICO DE EDOs Y EDPs",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ADMD611",
+                "nombre": "GESTIÓN DE LA CALIDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 6
+            },
+            {
+                "codigo": "IMAD714",
+                "nombre": "PROCESOS ESTOCÁSTICOS II",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 7
+            },
+            {
+                "codigo": "IMAD724",
+                "nombre": "ANÁLISIS DE DATOS MULTIVARIADO Y MODELOS LINEALES",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 7
+            },
+            {
+                "codigo": "IMAD733",
+                "nombre": "IMPLEMENTACIÓN Y PROGRAMACIÓN ENTERA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "IMAD743",
+                "nombre": "SIMULACIÓN",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ADMD711",
+                "nombre": "INGENIERÍA FINANCIERA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 7
+            },
+            {
+                "codigo": "IMAD814",
+                "nombre": "SERIES TEMPORALES",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 8
+            },
+            {
+                "codigo": "IMAD824",
+                "nombre": "ECONOMETRÍA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 8
+            },
+            {
+                "codigo": "IMAD833",
+                "nombre": "ESTADÍSTICA MATEMÁTICA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "IMAD843",
+                "nombre": "MATEMÁTICA ACTUARIAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "TITD101",
+                "nombre": "DISEÑO DE TRABAJO DE INTEGRACIÓN CURRICULAR / PREPARACIÓN EXAMEN COMPLEXIVO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 8
+            },
+            {
+                "codigo": "IMAD912",
+                "nombre": "MODELOS DE RIESGO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "PRLD105",
+                "nombre": "PRÁCTICAS LABORALES",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            },
+            {
+                "codigo": "PSCD202",
+                "nombre": "PRÁCTICAS DE SERVICIO COMUNITARIO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "CSHD400",
+                "nombre": "ASIGNATURA DE ECONOMÍA Y SOCIEDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 9
+            },
+            {
+                "codigo": "TITD201",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR / EXAMEN DE CARÁCTER COMPLEXIVO",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            }
+        ],
         "totales": {
-            "total_creditos": 0,
-            "total_horas": 0
+            "total_creditos": 135,
+            "total_horas": 6480
         }
     },
     {
@@ -6684,7 +7744,7 @@
     {
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Ingeniera/o en Tecnologías de la Información",
-        "career_url_ref": "https://www.epn.edu.ec/ingenieria-en-telecomunicaciones/",
+        "career_url_ref": "https://www.epn.edu.ec/ingenieria-en-telecomunicacion-de-la-informacion/",
         "pensum": "2020",
         "materias": [
             {
@@ -6983,7 +8043,7 @@
             },
             {
                 "codigo": "ITID753",
-                "nombre": null,
+                "nombre": "INGENIERÍA FINANCIERA",
                 "creditos": 3,
                 "horas": 144,
                 "semestre": 7
@@ -6997,7 +8057,7 @@
             },
             {
                 "codigo": "ITID800",
-                "nombre": "ASIGNATURA DE ITINERARIO",
+                "nombre": "ASIGNATURA ITINERARIO I",
                 "creditos": 2,
                 "horas": 96,
                 "semestre": 8
@@ -7032,7 +8092,7 @@
             },
             {
                 "codigo": "ITID862",
-                "nombre": "SEGURIDAD DE SISTEMAS",
+                "nombre": "DISEÑO DE TRABAJO DE CARÁCTER COMPLEXIVO",
                 "creditos": 2,
                 "horas": 96,
                 "semestre": 8
@@ -7046,7 +8106,7 @@
             },
             {
                 "codigo": "ITID900",
-                "nombre": "ASIGNATURA ITINERARIO",
+                "nombre": "ASIGNATURA ITINERARIO II",
                 "creditos": 2,
                 "horas": 96,
                 "semestre": 9
@@ -7054,7 +8114,7 @@
             {
                 "codigo": "PRLD105",
                 "nombre": "PRÁCTICAS LABORALES",
-                "creditos": 5,
+                "credits": 5,
                 "horas": 240,
                 "semestre": 9
             },
@@ -7304,11 +8364,292 @@
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Tecnóloga/o Superior en Procesamiento Industrial de la Madera",
         "career_url_ref": "https://www.epn.edu.ec/procesamiento-industrial-de-la-madera/",
-        "pensum": "Vigente",
-        "materias": [],
+        "pensum": "2021",
+        "materias": [
+            {
+                "codigo": "TPMD114",
+                "nombre": "HERRAMIENTAS, MÁQUINAS Y EQUIPOS I",
+                "creditos": 4,
+                "horas": 80,
+                "semestre": 1
+            },
+            {
+                "codigo": "TPMD125",
+                "nombre": "DIBUJO TÉCNICO I",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 1
+            },
+            {
+                "codigo": "TPMD133",
+                "nombre": "QUÍMICA",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 1
+            },
+            {
+                "codigo": "TPMD143",
+                "nombre": "MATEMÁTICAS",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 1
+            },
+            {
+                "codigo": "TPMD155",
+                "nombre": "TECNOLOGÍA DE LA MADERA I",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 1
+            },
+            {
+                "codigo": "CSHD162",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA I",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 1
+            },
+            {
+                "codigo": "ICOD173",
+                "nombre": "INFORMÁTICA I",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 1
+            },
+            {
+                "codigo": "VPPD111",
+                "nombre": "PRÁCTICAS EN ENTIDAD RECEPTORA FORMADORA",
+                "creditos": 20,
+                "horas": 400,
+                "semestre": 1
+            },
+            {
+                "codigo": "TPMD223",
+                "nombre": "HERRAMIENTAS, MÁQUINAS Y EQUIPOS II",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 2
+            },
+            {
+                "codigo": "TPMD234",
+                "nombre": "DIBUJO TÉCNICO II",
+                "creditos": 4,
+                "horas": 80,
+                "semestre": 2
+            },
+            {
+                "codigo": "TPMD248",
+                "nombre": "DESARROLLO DE PRODUCTO - FABRICACIÓN II",
+                "creditos": 8,
+                "horas": 160,
+                "semestre": 2
+            },
+            {
+                "codigo": "TPMD255",
+                "nombre": "TECNOLOGÍAS DE LA MADERA II",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 2
+            },
+            {
+                "codigo": "CSHD262",
+                "nombre": "LA EMPRESA Y SU ENTORNO - CÁLCULO DE COSTOS",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 2
+            },
+            {
+                "codigo": "ICOD273",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA II INFORMÁTICA II",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 2
+            },
+            {
+                "codigo": "VPPD211",
+                "nombre": "PRÁCTICAS EN ENTIDAD RECEPTORA FORMADORA",
+                "creditos": 15,
+                "horas": 300,
+                "semestre": 2
+            },
+            {
+                "codigo": "VPPD221",
+                "nombre": "PROYECTO EMPRESARIAL",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 2
+            },
+            {
+                "codigo": "TPMD322",
+                "nombre": "LEGISLACIÓN LABORAL",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 3
+            },
+            {
+                "codigo": "TPMD336",
+                "nombre": "ORGANIZACIÓN INDUSTRIAL",
+                "creditos": 6,
+                "horas": 120,
+                "semestre": 3
+            },
+            {
+                "codigo": "TPMD348",
+                "nombre": "DESARROLLO DE PRODUCTO - III",
+                "creditos": 8,
+                "horas": 160,
+                "semestre": 3
+            },
+            {
+                "codigo": "TPMD354",
+                "nombre": "DIBUJO TÉCNICO INDUSTRIAL",
+                "creditos": 4,
+                "horas": 80,
+                "semestre": 3
+            },
+            {
+                "codigo": "CSHD362",
+                "nombre": "TECNOLOGÍAS DE LA MADERA III - EMPRESA Y SU ENTORNO",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 3
+            },
+            {
+                "codigo": "ICOD373",
+                "nombre": "LA DIVERSIDAD Y INFORMÁTICA III",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 3
+            },
+            {
+                "codigo": "VPPD311",
+                "nombre": "PRÁCTICAS EN ENTIDAD RECEPTORA FORMADORA",
+                "creditos": 15,
+                "horas": 300,
+                "semestre": 3
+            },
+            {
+                "codigo": "VPPD321",
+                "nombre": "PROYECTO EMPRESARIAL",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 3
+            },
+            {
+                "codigo": "TPMD421",
+                "nombre": "MEDIO AMBIENTE",
+                "creditos": 1,
+                "horas": 20,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD437",
+                "nombre": "DESARROLLO DE PRODUCTOS DE MADERA",
+                "creditos": 7,
+                "horas": 140,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD445",
+                "nombre": "EMPRESA Y SU ENTORNO - DISEÑO DE LA CONSTRUCCIÓN I",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD452",
+                "nombre": "TECNOLOGÍA DE SEGURIDAD INDUSTRIAL",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD462",
+                "nombre": "ENTORNO - TRANSFORMACIÓN DE CONFLICTOS",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD473",
+                "nombre": "HERRAMIENTAS, MÁQUINAS Y EQUIPOS III",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 4
+            },
+            {
+                "codigo": "PSCD205",
+                "nombre": "SERVICIO A LA COMUNIDAD",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 4
+            },
+            {
+                "codigo": "VPPD411",
+                "nombre": "PRÁCTICAS EN ENTIDAD RECEPTORA FORMADORA",
+                "creditos": 15,
+                "horas": 300,
+                "semestre": 4
+            },
+            {
+                "codigo": "VPPD421",
+                "nombre": "PROYECTO EMPRESARIAL",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 4
+            },
+            {
+                "codigo": "TPMD534",
+                "nombre": "DESARROLLO DE PRODUCTO - DISEÑO DE ESPACIOS",
+                "creditos": 4,
+                "horas": 80,
+                "semestre": 5
+            },
+            {
+                "codigo": "TPMD544",
+                "nombre": "TECNOLOGÍA DE LA CONSTRUCCIÓN II",
+                "creditos": 4,
+                "horas": 80,
+                "semestre": 5
+            },
+            {
+                "codigo": "TPMD552",
+                "nombre": "EMPRESA Y SU ENTORNO - GESTIÓN DE LA CALIDAD",
+                "creditos": 2,
+                "horas": 40,
+                "semestre": 5
+            },
+            {
+                "codigo": "TPMD573",
+                "nombre": "HERRAMIENTAS, MÁQUINAS Y EQUIPOS IV",
+                "creditos": 3,
+                "horas": 60,
+                "semestre": 5
+            },
+            {
+                "codigo": "TITD202",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR",
+                "creditos": 12,
+                "horas": 240,
+                "semestre": 5
+            },
+            {
+                "codigo": "VPPD511",
+                "nombre": "PRÁCTICAS EN ENTIDAD RECEPTORA FORMADORA",
+                "creditos": 15,
+                "horas": 300,
+                "semestre": 5
+            },
+            {
+                "codigo": "VPPD521",
+                "nombre": "PROYECTO EMPRESARIAL",
+                "creditos": 5,
+                "horas": 100,
+                "semestre": 5
+            }
+        ],
         "totales": {
-            "total_creditos": 0,
-            "total_horas": 0
+            "total_creditos": 225,
+            "total_horas": 4500
         }
     },
     {
@@ -7697,12 +9038,405 @@
     {
         "universidad": "Escuela Politécnica Nacional",
         "carrera": "Ingeniera/o en Tecnologías de la Información",
-        "career_url_ref": "https://www.epn.edu.ec/ingenieria-en-telecomunicacion-de-la-informacion/",
-        "pensum": "Vigente",
-        "materias": [],
+        "career_url_ref": "https://www.epn.edu.ec/ingenieria-en-telecomunicaciones/",
+        "pensum": "2020",
+        "materias": [
+            {
+                "codigo": "MATD113",
+                "nombre": "ÁLGEBRA LINEAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD123",
+                "nombre": "CÁLCULO EN UNA VARIABLE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "FISD134",
+                "nombre": "MECÁNICA NEWTONIANA",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 1
+            },
+            {
+                "codigo": "QUID143",
+                "nombre": "QUÍMICA GENERAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 1
+            },
+            {
+                "codigo": "ICOD111",
+                "nombre": "HERRAMIENTAS INFORMÁTICAS",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "CSHD111",
+                "nombre": "COMUNICACIÓN ORAL Y ESCRITA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 1
+            },
+            {
+                "codigo": "MATD213",
+                "nombre": "ECUACIONES DIFERENCIALES ORDINARIAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "MATD223",
+                "nombre": "PROBABILIDAD Y ESTADÍSTICA BÁSICAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED232",
+                "nombre": "CÁLCULO VECTORIAL",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED242",
+                "nombre": "FUNDAMENTOS DE ELECTROMAGNETISMO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED252",
+                "nombre": "ANÁLISIS DE PROGRAMACIÓN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "CSHD211",
+                "nombre": "ANÁLISIS SOCIOECONÓMICO Y POLÍTICO DEL ECUADOR",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED272",
+                "nombre": "ELECTROTECNIA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 2
+            },
+            {
+                "codigo": "IEED312",
+                "nombre": "MATEMÁTICA AVANZADA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED323",
+                "nombre": "SISTEMAS DIGITALES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED333",
+                "nombre": "DISPOSITIVOS ELECTRÓNICOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED342",
+                "nombre": "TEORÍA ELECTROMAGNÉTICA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED353",
+                "nombre": "FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 3
+            },
+            {
+                "codigo": "CSHD300",
+                "nombre": "ASIGNATURA DE ARTES Y HUMANIDADES",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED371",
+                "nombre": "MATEMÁTICA DISCRETA",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 3
+            },
+            {
+                "codigo": "IEED413",
+                "nombre": "INSTALACIONES ELÉCTRICAS Y COMUNICACIONES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "TELD423",
+                "nombre": "ANÁLISIS DE SEÑALES DISCRETAS PARA COMUNICACIONES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ITID433",
+                "nombre": "PROGRAMACIÓN AVANZADA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ITID443",
+                "nombre": "BASES DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 4
+            },
+            {
+                "codigo": "ITID452",
+                "nombre": "SISTEMAS OPERATIVOS",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 4
+            },
+            {
+                "codigo": "CSHD400",
+                "nombre": "ASIGNATURA DE ECONOMÍA Y SOCIEDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 4
+            },
+            {
+                "codigo": "ITID512",
+                "nombre": "SISTEMAS DE CABLEADO ESTRUCTURADO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 5
+            },
+            {
+                "codigo": "ITID524",
+                "nombre": "TRANSMISIÓN DIGITAL",
+                "creditos": 4,
+                "horas": 192,
+                "semestre": 5
+            },
+            {
+                "codigo": "TELD522",
+                "nombre": "TEORÍA DE INFORMACIÓN Y CODIFICACIÓN",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 5
+            },
+            {
+                "codigo": "ITID543",
+                "nombre": "DISEÑO Y PROGRAMACIÓN DE SOFTWARE",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ITID553",
+                "nombre": "SISTEMAS EMBEBIDOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 5
+            },
+            {
+                "codigo": "ADMD511",
+                "nombre": "GESTIÓN ORGANIZACIONAL",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 5
+            },
+            {
+                "codigo": "ITID612",
+                "nombre": "CABLEADO ESTRUCTURADO AVANZADO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 6
+            },
+            {
+                "codigo": "ITID623",
+                "nombre": "REDES DE ÁREA LOCAL",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ITID633",
+                "nombre": "ENRUTAMIENTO",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ITID643",
+                "nombre": "SISTEMAS INALÁMBRICOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ITID653",
+                "nombre": "ALMACENAMIENTO Y PROCESAMIENTO DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 6
+            },
+            {
+                "codigo": "ADMD611",
+                "nombre": "GESTIÓN DE PROCESOS Y CALIDAD",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 6
+            },
+            {
+                "codigo": "ITID713",
+                "nombre": "APLICACIONES DISTRIBUIDAS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ITID723",
+                "nombre": "REDES DE ÁREA EXTENDIDA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ITID733",
+                "nombre": "SEGURIDAD EN REDES E INTRANETS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ITID742",
+                "nombre": "APLICACIONES WEB Y MÓVILES",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 7
+            },
+            {
+                "codigo": "ITID753",
+                "nombre": "INGENIERÍA FINANCIERA",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 7
+            },
+            {
+                "codigo": "ADMD711",
+                "nombre": "null",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 7
+            },
+            {
+                "codigo": "ITID800",
+                "nombre": "ASIGNATURA DE ITINERARIO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID822",
+                "nombre": "DISEÑO DE REDES INALÁMBRICAS",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID832",
+                "nombre": "EVALUACIÓN DE REDES",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID843",
+                "nombre": "ADMINISTRACIÓN DE REDES",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID853",
+                "nombre": "MINERÍA DE DATOS",
+                "creditos": 3,
+                "horas": 144,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID862",
+                "nombre": "null",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 8
+            },
+            {
+                "codigo": "TITD101",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR / EXAMEN COMPLEXIVO",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 8
+            },
+            {
+                "codigo": "ITID900",
+                "nombre": "ASIGNATURA ITINERARIO AVANZADA",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "PRLD105",
+                "nombre": "PRÁCTICAS LABORALES",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            },
+            {
+                "codigo": "PSCD202",
+                "nombre": "PRÁCTICAS DE SERVICIO COMUNITARIO",
+                "creditos": 2,
+                "horas": 96,
+                "semestre": 9
+            },
+            {
+                "codigo": "ITID941",
+                "nombre": "REGULACIÓN DE LAS TELECOMUNICACIONES",
+                "creditos": 1,
+                "horas": 48,
+                "semestre": 9
+            },
+            {
+                "codigo": "TITD201",
+                "nombre": "TRABAJO DE INTEGRACIÓN CURRICULAR / EXAMEN COMPLEXIVO",
+                "creditos": 5,
+                "horas": 240,
+                "semestre": 9
+            }
+        ],
         "totales": {
-            "total_creditos": 0,
-            "total_horas": 0
+            "total_creditos": 135,
+            "total_horas": 6480
         }
     },
     {
