@@ -17,8 +17,12 @@ pdf2image
 huggingface_hub
 sentence-transformers
 torch
-install
 transformers
 torch
 accelerate
 sentencepiece
+supabase
+python-dotenv
+fastapi
+uvicorn
+supabase

@@ -2464,217 +2464,217 @@
       {
         "code": "1",
         "name": "Metodología De Investigación",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "2",
         "name": "Filosofía Y Educación",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "3",
         "name": "Pedagogía",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "4",
         "name": "Comunicación Y Lenguaje",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "5",
         "name": "Álgebra",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "6",
         "name": "Mecánica Vectorial",
-        "semester": "I"
+        "semester": 1
       },
       {
         "code": "7",
         "name": "Investigación Científica",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "8",
         "name": "Sociología De La Educación",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "9",
         "name": "Didáctica General",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "10",
         "name": "Tic En La Educación",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "11",
         "name": "Álgebra Superior",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "12",
         "name": "Estática",
-        "semester": "II"
+        "semester": 2
       },
       {
         "code": "13",
         "name": "Psicología Educativa",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "14",
         "name": "Diseño Y Planificación Curricular",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "15",
         "name": "Software De Matemática Y Física",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "16",
         "name": "Análisis Matemático",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "17",
         "name": "Geometría Analítica",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "18",
         "name": "Mecánica De Fluidos",
-        "semester": "III"
+        "semester": 3
       },
       {
         "code": "19",
         "name": "Análisis Socioeconómico",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "20",
         "name": "Geometría Y Trigonometría",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "21",
         "name": "Pedagogía De Las Matemáticas Y Física",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "22",
         "name": "Matemática Financiera",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "23",
         "name": "Geometría Analítica En El Espacio",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "24",
         "name": "Termodinámica",
-        "semester": "IV"
+        "semester": 4
       },
       {
         "code": "25",
         "name": "Investigación Educativa",
-        "semester": "V"
+        "semester": 5
       },
       {
         "code": "26",
         "name": "Didáctica De La Matemática Y La Física Para El Bachillerato",
-        "semester": "V"
+        "semester": 5
       },
       {
         "code": "27",
         "name": "Currículo",
-        "semester": "V"
+        "semester": 5
       },
       {
         "code": "28",
         "name": "Cálculo Diferencia E Integral",
-        "semester": "V"
+        "semester": 5
       },
       {
         "code": "29",
         "name": "Electricidad Y Magnetismo",
-        "semester": "V"
+        "semester": 5
       },
       {
         "code": "30",
         "name": "Estadística Descriptiva E Inferencial",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": "31",
         "name": "Evaluación Educativa",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": "32",
         "name": "Administración Educativa",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": "33",
         "name": "Ecuaciones Diferenciales",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": "34",
         "name": "Movimiento Ondulatorio",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": null,
         "name": "Prácticas Pre Profesionales Vi",
-        "semester": "VI"
+        "semester": 6
       },
       {
         "code": "35",
         "name": "Desarrollo Del Pensamiento: Habilidades Cognitivas Y Sociales",
-        "semester": "VII"
+        "semester": 7
       },
       {
         "code": "36",
         "name": "Álgebra Lineal",
-        "semester": "VII"
+        "semester": 7
       },
       {
         "code": "37",
         "name": "Optica Y Física Moderna",
-        "semester": "VII"
+        "semester": 7
       },
       {
         "code": "38",
         "name": "Legislación Educativa",
-        "semester": "VII"
+        "semester": 7
       },
       {
         "code": null,
         "name": "Prácticas Pre Profesionales Vii",
-        "semester": "VII"
+        "semester": 7
       },
       {
         "code": "39",
         "name": "Inclusión E Intervención Educativa",
-        "semester": "VIII"
+        "semester": 8
       },
       {
         "code": "40",
         "name": "Titulación E Integración Curricular",
-        "semester": "VIII"
+        "semester": 8
       },
       {
         "code": null,
         "name": "Servicio Comunitario",
-        "semester": "VIII"
+        "semester": 8
       }
     ]
   },
