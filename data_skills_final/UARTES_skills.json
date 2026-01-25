@@ -1,0 +1,1501 @@
+[
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_ARTES_MUSICALES_Y_SONORAS",
+    "career_name": "Licenciatura en Artes Musicales y Sonoras",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Armonía I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia De Las Músicas I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Tecnología Musical I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Armonía Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Historia De Las Músicas Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Tecnología Musical Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Armonía Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Historia De La Música Latinoamericana Y Del Ecuador",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Taller De Construcción De Instrumentos Ancestrales",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical Iv",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Armonía Iv",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Fundamentos De Etnomusicología Y Música Popular",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Arreglos I",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Didáctica De La Música",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Arreglos Ii",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Investigación Musical I",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Análisis Musical I",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Industria Musical, Gestión, Producción Y Creación",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Unidad De Integración Curricular",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Análisis Musical Ii",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Vínculo Con La Comunidad",
+        "semester": 5
+      }
+    ],
+    "career_general_skills": [
+      "apreciable por la diversidad cultural y la riqueza musical de américa latina",
+      "apreciadora de la importancia de la etnomusicología y la preservación del patrimonio cultural",
+      "aptitud para adaptarse a cambios y improvisar en situaciones inesperadas",
+      "aptitud para analizar y evaluar diferentes géneros musicales",
+      "aptitud para reflexionar críticamente sobre la música y sus influencias",
+      "capaz de analizar y reflexionar sobre la historia y evolución de la música en diferentes contextos",
+      "comunicativa y expresiva en la presentación de ideas y conceptos musicales",
+      "conocedora de lenguajes musicales y teorías musicales",
+      "disfruta explorando y experimentando nuevos sonidos y ritmos",
+      "gusto por compartir y difundir la cultura musical ecuatoriana y latinoamericana",
+      "gusto por investigar y explorar nuevos sonidos y ritmos",
+      "habilidad adaptativa para innovar y experimentar nuevos géneros y estilos",
+      "habilidad colaborativa para trabajar en equipo en producciones musicales",
+      "habilidad comunicativa para expresarse oralmente sobre temas musicológicos",
+      "habilidad creativa para componer y improvisar música",
+      "habilidad crítica para analizar y evaluar diferentes estilos musicales",
+      "habilidad escritora para escribir ensayos y reseñas sobre música",
+      "habilidad investigadora para buscar y analizar fuentes históricas y bibliográficas",
+      "habilidad organizada para planificar y estructurar proyectos musicales",
+      "habilidad para crear y producir contenido musical innovador",
+      "habilidad para liderar y coordinar grupos musicales",
+      "habilidad para trabajar en equipo y colaborar en proyectos musicales",
+      "habilidad práctica para tocar instrumentos musicales",
+      "habilidad reflexiva para evaluar y mejorar propuestas musicales",
+      "habilitad creativa para componer y arreglar canciones",
+      "habilitada para adaptarse a cambios y innovaciones en la industria musical",
+      "habilitada para trabajar en equipo y colaborativamente en proyectos musicales",
+      "interesada en la fusión de géneros y estilos musicales",
+      "poder comunicarse efectivamente sobre temas musicales",
+      "talento para crear y componer música originalmente"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_PRODUCCIÓN_MUSICAL_Y_SONORA",
+    "career_name": "Licenciatura en Producción Musical y Sonora",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Introducción Del Sonido Y La Grabación",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Matemáticas Aplicadas",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Instrumento Principal I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Estación De Audio Digital",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Acústica Musical",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Escucha Crítica Para La Producción",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Instrumento Principal Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Lenguaje Musical Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Taller De Edición De Audio",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Técnica De Grabación I",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Taller De Electroacústica",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Instrumento Principal Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Historia De La Producción Musical En América Latina Y El Ecuador",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Armonía I",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Acústica Arquitectónica",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Técnica De Grabación Ii",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Instrumento Principal Iv",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Síntesis Y Creación Sonora",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Armonía Ii",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Mezcla",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Producción De Sonido Para Radio, Tv Y Medios Digitales",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Introducción Al Sonido En Vivo",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Producción Musical I",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Arreglos I",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Mezcla Avanzada Y Postproducción",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Investigación En La Producción Musical",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Producción Musical Ii",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Arreglos Ii",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Técnicas De Composición",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Industria Y Gestión Musical",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Producción Musical Iii",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Cátedra Libre",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "afinidad con la creación y experimentación",
+      "analiza y diseña proyectos musicales y sonoros",
+      "analizar y evaluar críticamente la calidad de la música y la sonoridad",
+      "analizar y evaluar críticamente la calidad de la producción musical",
+      "aplica conocimientos en acústica y diseño de espacios sonoros",
+      "aprende y adapta nuevas tecnologías y tendencias en la industria musical",
+      "aprender y adaptarse rápidamente a nuevas tecnologías y herramientas",
+      "aprender y aplicar conceptos teóricos y prácticos de electroacústica y grabación",
+      "capacidad de análisis crítico y reflexivo",
+      "comunica efectivamente ideas y visiones artísticas",
+      "comunicación efectiva y colaborativa",
+      "comunicarse efectivamente con otros músicos y profesionales",
+      "comunicarse efectivamente sobre temas musicales y culturales",
+      "crea y produce música utilizando diferentes herramientas y software",
+      "crear y editar audio utilizando software de edición digital",
+      "desarrolla habilidades en grabación y edición de audio",
+      "desenvolver habilidades instrumentales en diferentes géneros musicales",
+      "desenvolverse en la creación de arte sonoro y visual para presentaciones y conciertos",
+      "diseñar y producir contenido musical y sonoro para diferentes formatos y plataformas",
+      "diseñar y producir música original",
+      "dominio de herramientas digitales y software especializados",
+      "entender y aplicar conceptos de composición y teoría musical",
+      "entiende conceptos básicos de armonía y teoría musical",
+      "explorar y analizar la cultura y política en relación con la música y la industria discográfica",
+      "gestionar proyectos musicales y coordinar equipos",
+      "gusto por la investigación y exploración",
+      "habilidad musical y artística",
+      "hacer arreglos musicales complejos",
+      "iniciativa y autonomía en proyectos personales",
+      "interés en la tecnología y la innovación",
+      "investigar sobre diferentes géneros musicales y tendencias",
+      "investigar y explorar nuevas tendencias y tecnologías en la producción musical",
+      "mantiene actualizado su conocimiento sobre nuevos géneros y estilos musicales",
+      "predisposición a aprender y mejorar",
+      "resuelve problemas y encuentra soluciones creativas en situaciones complejas",
+      "tener creatividad y flexibilidad para experimentar y innovar en la creación musical",
+      "tolerancia al cambio y adaptabilidad",
+      "trabaja en equipo y colabora con otros artistas y profesionales",
+      "trabajar en equipo para crear proyectos musicales y sonoros complejos",
+      "utilizar software de edición de audio avanzados"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_EDUCACIÓN_ARTÍSTICA_INTERCULTURAL",
+    "career_name": "Licenciatura en Educación Artística Intercultural",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Diseño De Estrategias Y Pensamiento Pedagógico Crítico",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Educación Artística",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Fundamentos En Artes Ii / Análisis Crítico",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Pensamiento Y Co-Creación Curricular",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Estrategias Creativas En Artes",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Debates En Artes",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Investigación Acción Participativa",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Debates En Artes (Ciclo Ii)",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Diagnóstico Y Planificación Socioeducativos Y Culturales",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Consideraciones Etarias",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Investigación En Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Complementos Teórico-Prácticos",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Didácticas En Artes",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Praxis Y Co-Creación En La Comunidad",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Legislación Educativa",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Didácticas Desde Las Artes",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Sistematización Y Evaluación Socioeducativa",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Mediación Desde Las Artes",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Autoconocimiento E Intersubjetividades",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Comunidad Socioeducativa (Sistematización Y Evaluación)",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "analizar y discutir debates y controversias en torno al arte y la cultura",
+      "analizar y evaluar procesos educativos",
+      "aplicar principios éticos y responsables en la creación y presentación de obras artísticas",
+      "colaborar y trabajar en equipo para lograr objetivos comunes",
+      "comunicarse efectivamente a través de diferentes medios y formatos",
+      "comunicarse efectivamente con diferentes audiencias",
+      "comunicarse efectivamente en público y escrito",
+      "crear contenido multimedia y audiovisual",
+      "crear estrategias didácticas y pedagógicas efectivas",
+      "desarrollar proyectos creativos y innovadores",
+      "explorar y experimentar nuevas técnicas y herramientas artísticas",
+      "explorar y valorizar la diversidad cultural y lingüística",
+      "fomentar la colaboración y trabajo en equipo",
+      "investigar y analizar críticamente información sobre arte y cultura",
+      "investigar y analizar información críticamente",
+      "mostrar empatía y comprensión hacia diferentes culturas y perspectivas",
+      "mostrar flexibilidad y adaptabilidad ante cambios y desafíos",
+      "planificar y organizar eventos y actividades culturales",
+      "realizar debates y discusiones constructivas sobre temas sociales y políticos",
+      "reflexionar y evaluar propios procesos y resultados",
+      "reflexionar y evaluar propuestas y resultados",
+      "ser flexible y adaptarse a cambios y situaciones impredecibles",
+      "trabajar en equipo y colaborativamente"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_LITERATURA",
+    "career_name": "Licenciatura en Literatura",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Estudios De La Lengua En Castellano I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Mirada De Los Pueblos Originarios",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Literatura Ecuatoriana I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Estudios De La Lengua En Castellano Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Literatura Latinoamericana I",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Literatura Ecuatoriana Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Introducción A La Actividad Editorial",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Literatura Latinoamericana Ii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Literatura Ecuatoriana Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Tendencias De La Teoría Y Crítica Literarias",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Literatura Grecolatina Y Otras",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Literatura Latinoamericana Iii",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Historia De La Lectura Y De Las Plataformas Del Libro",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Taller Inicial De Escritura Creativa: Poesía",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Literatura Medieval, Del Renacimiento Y Del Barroco",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Literatura Latinoamericana Iv",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Literatura Y Nuevas Tecnologías",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Taller Inicial De Escritura Creativa: Narrativa",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Literatura Moderna Y Del Siglo Xix",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Historia De La Crítica Literaria Latinoamericana",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Lingüística Y Semiótica",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Taller De La No Ficción",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Literatura Contemporánea Española Y De Otros Países",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Seminarios De Refuerzo",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "análisis crítico y reflexivo",
+      "apreciable conocimiento sobre la cultura y la sociedad ecuatoriana",
+      "capacidad de investigación y búsqueda de información",
+      "capacidad para abstraerse y analizar textos complejos",
+      "capacidad para leer y analizar textos literarios",
+      "comunicación efectiva escrita y oral",
+      "conocimiento y comprensión de conceptos teóricos y metodológicos",
+      "conocimiento y comprensión de diferentes estilos y géneros literarios",
+      "creatividad y capacidad para generar nuevas ideas",
+      "curiosidad por la política y la cultura en américa latina",
+      "curiosidad y disposición para aprender sobre nuevas tendencias y teorías literarias",
+      "disposición para aprender y explorar nuevas perspectivas culturales",
+      "disposición para explorar y experimentar nuevos medios y formatos de comunicación",
+      "dominio de herramientas digitales para la creación y difusión de contenido",
+      "flexibilidad y adaptabilidad ante cambios y nuevos desafíos",
+      "habilidad para escribir creativamente y de manera coherente",
+      "habilidad para escribir de manera clara y concisa",
+      "habilidad para trabajar en equipo y colaborativamente",
+      "interés en la historia y evolución de la literatura",
+      "interés en la historia y la teoría de las artes",
+      "respeto y aprecio por la diversidad cultural",
+      "respeto y aprecio por la diversidad cultural y lingüística"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_DANZA",
+    "career_name": "Licenciatura en Danza",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Anatomía Y Kinesiología I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Reflexionar La Danza I: ¿Qué Puede Un Cuerpo?",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Improvisación: Conciencia E Imaginación I (*)",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Anatomía Y Kinesiología Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Reflexionar La Danza Ii: El Cuerpo Y El Sentido",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Improvisación: Conciencia E Imaginación Ii (*)",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Música Para Danza",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Historia De La Danza: Genealogías",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Improvisación Y Composición Instantánea (*)",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Historia De La Danza: Corrientes Y Estéticas",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Improvisación Y Contacto I (*)",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Unidad De Descubrimiento",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Recreación Y Reconstrucción En Danza Ecuatoriana",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Improvisación Y Contacto Ii (*)",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Seminario Etnocoreología",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Sistemas De Improvisación (*)",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Taller De Producción Y Gestión En/Para Artes Escénicas (*)",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Taller De Investigación Para/En Artes Escénicas",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Unidad De Integración Curricular",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Y Metodologías De La Investigación Escénica",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "analiza y reflexiona sobre la historia y teoría de las artes",
+      "analizar y reflexionar sobre la historia y evolución de la danza",
+      "asume roles activos en la creación y presentación de obras de danza",
+      "asumir roles activos en la creación y presentación de obras de danza",
+      "comunica ideas y sentimientos a través del movimiento",
+      "comunicarse efectivamente a través del lenguaje corporal",
+      "considera la política y cultura en relación con la danza",
+      "crear y improvisar movimientos y coreografías",
+      "desarrolla habilidades corporales y kinestésicas",
+      "desarrolla una conciencia crítica y reflexiva sobre su propio proceso creativo",
+      "desarrollar habilidades corporales y kinestésicas",
+      "desenvolver sentido estético y crítico hacia la danza y las artes visuales",
+      "escribe textos claros y concisos sobre temas relacionados con la danza",
+      "explorar y experimentar nuevas técnicas y materiales en la creación de danza",
+      "investiga y explora diferentes estilos y técnicas de improvisación",
+      "investigar y analizar diferentes estilos y técnicas de danza",
+      "investigar y explorar diferentes estilos y corrientes de la danza",
+      "mantiene una actitud creativa y experimental",
+      "reconectar con la cultura ecuatoriana a través de la danza tradicional",
+      "trabaja en equipo y colabora con otros artistas",
+      "trabajar en equipo y colaborativamente en proyectos artísticos",
+      "trabajar en equipo y colaborativamente en proyectos creativos"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_CREACIÓN_TEATRAL",
+    "career_name": "Licenciatura en Creación Teatral",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Del Teatro I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Entrenamiento Actoral I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Voz I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Psicología Del Aprendizaje",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Historia Del Teatro Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Entrenamiento Actoral Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Voz Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Danza I: Técnicas Somáticas/Estudio Del Movimiento",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Historia Del Teatro Ecuatoriano",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Géneros Dramáticos Y Análisis De Textos",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Entrenamiento Actoral Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Voz Iii",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Danza Ii: Danza Contemporánea",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Filosofía Del Teatro: Teatro I",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Entrenamiento Actoral Iv",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Voz Iv",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Teatral: Dramaturgia",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Cátedra De Herramientas Profesionalizantes",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Teorías Y Pensamientos I",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Dramaturgia Experimental",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Cátedra De Libre Opción I",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Taller De Crítica Para Las Artes Escénicas",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Uic I: Investigación En/Para Las Artes",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Cátedra De Libre Opción Ii",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Corpografías Originarias Andinas, Montubias Y Afroecuatorianas",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Taller De Producción Y Gestión En/Para Las Artes Escénicas",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Taller De Apoyo: Escritura E Investigación",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "analizar y reflexionar sobre la estructura y contenido de obras teatrales",
+      "analizar y reflexionar sobre la historia y teoría del teatro",
+      "analizar y reflexionar sobre textos dramáticos y contextos culturales",
+      "aplicar técnicas somáticas y de movimiento para expresar emociones y sentimientos",
+      "comunicarse efectivamente",
+      "comunicarse efectivamente a través de la voz y el cuerpo",
+      "comunicarse efectivamente a través del lenguaje corporal y vocal",
+      "comunicarse efectivamente mediante la voz y el cuerpo",
+      "crear y presentar performances innovadoras y experimentales",
+      "crear y presentar textos dramáticos y no dramáticos",
+      "desarrollar creatividad y originalidad en la creación de obras teatrales",
+      "desarrollar creatividad y originalidad en la creación de textos dramáticos",
+      "desarrollar proyectos creativos",
+      "desenvolver habilidades de improvisación y adaptabilidad en situaciones inesperadas",
+      "desenvolverse en la escritura académica y comunicativa",
+      "escribir y revisar textos dramáticos de manera crítica y constructiva",
+      "estar dispuesto a experimentar y aprender nuevas técnicas actoriales",
+      "estar dispuesto a experimentar y arriesgarse en la creación y presentación de obras",
+      "explorar y analizar la relación entre arte y sociedad",
+      "investigar y analizar la psicología del aprendizaje y su aplicación en la educación teatral",
+      "investigar y explorar diferentes estilos y tendencias en la dramaturgia",
+      "investigar y explorar diferentes géneros y estilos teatrales",
+      "reconectar con la cultura y tradiciones andinas, montubias y afroecuatorianas",
+      "reflexionar críticamente sobre la función social y política del teatro",
+      "reflexionar sobre la función social y política del teatro en la sociedad ecuatoriana",
+      "respetar y valorar diferentes perspectivas ideológicas y estéticas en el teatro",
+      "ser flexible y adaptable ante cambios y sorpresas en el proceso creativo",
+      "trabajar en equipo y colaborativamente en proyectos teatrales",
+      "trabajar en equipo y colaborativamente para producir eventos teatrales"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_CINE",
+    "career_name": "Licenciatura en Cine",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Escritura Académica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Del Cine I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Taller De Diseño Multimedia",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Flujos De Trabajo En El Cine Digital",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Análisis Y Estética Del Film",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Guión I",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Historia Del Cine Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Teoría Del Cine I",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura En América Latina",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Dirección Cinematográfica",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Dirección De Producción",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Cine Latinoamericano",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Cine Documental",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Investigación En Cine",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Guión Ii",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Cine Ecuatoriano",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Autores/Directores: Curso Monográfico",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Actor, Director, Dramaturgia Y Géneros",
+        "semester": 8
+      }
+    ],
+    "career_general_skills": [
+      "analizar y comprender diferentes géneros cinematográficos",
+      "analizar y evaluar críticamente obras cinematográficas y literarias",
+      "analizar y evaluar información y datos para tomar decisiones informadas",
+      "aplicar conceptos teóricos y técnicos en la creación de contenido audiovisual",
+      "comunicarse efectivamente a través de diferentes medios (escrito, oral, visual)",
+      "crear contenido multimedia y audiovisual",
+      "crear y presentar proyectos personales y colectivos de manera efectiva",
+      "desarrollar creatividad y originalidad en la narrativa",
+      "desarrollar creatividad y originalidad en proyectos multimedia",
+      "desarrollar proyectos creativos y originales",
+      "diseñar y producir contenido multimedia interactivo y atractivo",
+      "entender y analizar la cultura popular y la sociedad actual",
+      "entender y aplicar conceptos teóricos y filosóficos en el ámbito del cine y las artes visuales",
+      "escribir y estructurar textos claros y concisos para comunicar ideas y argumentos",
+      "estar dispuesto/a a aprender y adaptarse a nuevas tecnologías y herramientas",
+      "investigar y analizar información sobre temas cinematográficos y culturales",
+      "investigar y explorar nuevas tendencias y tecnologías en el ámbito del cine y las artes visuales",
+      "mostrar interés en la cultura y la sociedad ecuatoriana y latinoamericana",
+      "ser flexible y adaptable ante cambios y sorpresas en el proceso de producción",
+      "trabajar en equipo y colaborativamente",
+      "trabajar en equipo y colaborativamente para lograr objetivos comunes"
+    ]
+  },
+  {
+    "career_id": "UARTES_PRESENCIAL_LICENCIATURA_EN_ARTES_VISUALES",
+    "career_name": "Licenciatura en Artes Visuales",
+    "university_name": "Universidad de las Artes",
+    "country": "ECUADOR",
+    "locations": [
+      "Guayaquil"
+    ],
+    "subjects": [
+      {
+        "code": "",
+        "name": "Taller De Escritura",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes I",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Edición De Imagen Fija",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Fotografía Básica",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Dibujo Básico",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Artes Gráficas",
+        "semester": 1
+      },
+      {
+        "code": "",
+        "name": "Historia Y Teoría De Las Artes Ii",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Edición De Imagen En Movimiento",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Escultura Básica",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Pintura Básica",
+        "semester": 2
+      },
+      {
+        "code": "",
+        "name": "Política Y Cultura De Las Artes",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Historia Del Arte Del Dibujo",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Introducción A La Retórica Visual",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Dibujo Avanzado",
+        "semester": 3
+      },
+      {
+        "code": "",
+        "name": "Estética Y Filosofía De Las Artes",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Arte Moderno Posterior A Los 60S",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Cultura Ecuatoriana Y Funciones Críticas",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Recursos Discursivos Del Arte I",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Introducción A Las Herramientas Tecnológicas",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Narrativas Audiovisuales",
+        "semester": 4
+      },
+      {
+        "code": "",
+        "name": "Procesos Conceptuales Contemporáneos",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Perspectivas Modernas En El Ecuador",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Recursos Discursivos Del Arte Ii",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Fotografía Avanzada I",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Luz, Color Y Video",
+        "semester": 5
+      },
+      {
+        "code": "",
+        "name": "Arte Y Pensamiento En América Latina",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Dibujo: Investigación",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Procesos De Creación I",
+        "semester": 6
+      },
+      {
+        "code": "",
+        "name": "Cultura Artística",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Procesos Artísticos",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Procesos De Creación Ii",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Taller De Creación En Medios E Imagen Electrónica I",
+        "semester": 7
+      },
+      {
+        "code": "",
+        "name": "Portafolio Y Gestión",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Taller De Creación En Medios E Imagen Electrónica I",
+        "semester": 8
+      },
+      {
+        "code": "",
+        "name": "Unidad De Integración Curricular",
+        "semester": 1
+      }
+    ],
+    "career_general_skills": [
+      "analizar y evaluar críticamente obras y procesos creativos",
+      "analizar y evaluar obras de arte y cultura",
+      "analizar y evaluar obras de arte y cultura popular",
+      "analizar y evaluar obras de arte y cultura visual",
+      "aplicar herramientas tecnológicas para crear contenido visual",
+      "aplicar técnicas de dibujo y pintura para expresarse visualmente",
+      "comunicar ideas y pensamientos a través de la imagen y el lenguaje",
+      "comunicarse efectivamente a través de la imagen y el lenguaje visual",
+      "comunicarse efectivamente a través de medios visuales",
+      "comunicarse efectivamente a través de medios visuales y electrónicos",
+      "crear contenido multimedia y audiovisual",
+      "crear narrativas audiovisuales innovadoras",
+      "crear y editar contenido visual para publicaciones y presentaciones",
+      "desarrollar habilidades creativas y expresivas",
+      "desarrollar proyectos creativos y autónomos",
+      "desarrollar proyectos creativos y originales",
+      "desenvolver habilidades de liderazgo y colaboración en equipo",
+      "diseñar y producir elementos gráficos y visuales para comunicación y marketing",
+      "estar dispuesto/a a aprender y adaptarse a nuevas tecnologías y tendencias artísticas",
+      "estar dispuesto/a a experimentar y aprender de errores",
+      "explorar diferentes medios y técnicas artísticas",
+      "explorar y experimentar diferentes técnicas y herramientas artísticas",
+      "explorar y reflexionar sobre la identidad cultural y la diversidad",
+      "innovar y adaptarse a nuevas tecnologías y tendencias artísticas",
+      "investigar y analizar diferentes perspectivas y discursos artísticos",
+      "investigar y experimentar con nuevos materiales y procesos artísticos",
+      "investigar y explorar diferentes estilos y técnicas artísticas",
+      "mostrar interés en la historia y evolución del arte",
+      "realizar experimentaciones y pruebas para innovar en la creación artística",
+      "reflexionar sobre la función social y cultural del arte",
+      "reflexionar sobre la relación entre arte y sociedad",
+      "ser capaz de trabajar en equipo y recibir retroalimentación constructiva",
+      "trabajar en equipo y colaborativamente en proyectos artísticos"
+    ]
+  }
+]
