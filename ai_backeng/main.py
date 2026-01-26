@@ -1,12 +1,13 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from supabase_client import get_all_careers
-from memory import empty_profile
-from agent import run_agent
+
+from ai_backeng.memory import empty_profile
+from ai_backeng.agent import run_agent
+from ai_backeng.embeddings.user_embedding import embed_user_text
+from ai_backeng.matching.get_best_careers import get_best_careers
 
 app = FastAPI()
 
-# memoria temporal (demo)
 USER_MEMORY = empty_profile()
 
 class ChatInput(BaseModel):
@@ -14,7 +15,12 @@ class ChatInput(BaseModel):
 
 @app.post("/chat")
 def chat(input: ChatInput):
-    careers = get_all_careers()
+    user_embedding = embed_user_text(input.message)
+
+    careers = get_best_careers(
+        user_embedding,
+        USER_MEMORY["preferencias"]
+    )
 
     reply = run_agent(
         input.message,
@@ -23,6 +29,5 @@ def chat(input: ChatInput):
     )
 
     return {
-        "reply": reply,
-        "memory": USER_MEMORY
+        "reply": reply
     }

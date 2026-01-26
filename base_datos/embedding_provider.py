@@ -1,29 +1,18 @@
+from sentence_transformers import SentenceTransformer
 import os
-import google.generativeai as genai
-from dotenv import load_dotenv
 
-load_dotenv()
+PROVIDER = os.getenv("EMBEDDING_PROVIDER", "local-e5")
 
-PROVIDER = os.getenv("EMBEDDING_PROVIDER", "gemini")
-
-# ======================
-# GEMINI (ACTUAL)
-# ======================
-
-if PROVIDER == "gemini":
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+if PROVIDER == "local-e5":
+    model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     def get_embedding(text: str) -> list[float]:
-        result = genai.embed_content(
-            model="models/embedding-001",
-            content=text
+        # E5 requiere prefijo
+        text = f"passage: {text}"
+        embedding = model.encode(
+            text,
+            normalize_embeddings=True
         )
-        return result["embedding"]
+        return embedding.tolist()
 
-    EMBEDDING_MODEL_NAME = "gemini-embedding-001"
-
-# ======================
-# FUTURO: OPENAI / OTROS
-# ======================
-# elif PROVIDER == "openai":
-#     ...
+    EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"

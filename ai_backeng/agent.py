@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
-from prompt import SYSTEM_PROMPT
+from ai_backeng.prompt import SYSTEM_PROMPT
 
 load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
@@ -38,13 +38,20 @@ CARRERAS DISPONIBLES
 
     model = genai.GenerativeModel(
         model_name="gemini-3-flash-preview",
-        generation_config={
-            "temperature": 0.4
-        }
+        generation_config={"temperature": 0.4}
     )
 
     try:
         response = model.generate_content(full_prompt)
-        return response.text
+
+        # Manejo seguro de la respuesta
+        if response.candidates and len(response.candidates) > 0:
+            candidate = response.candidates[0]
+
+            # Acceso directo al texto
+            if hasattr(candidate, "content") and hasattr(candidate.content, "text"):
+                return candidate.content.text
+
+        return "Error en Gemini: no se generó texto"
     except Exception as e:
         return f"Error en Gemini: {str(e)}"

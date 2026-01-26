@@ -29,23 +29,37 @@ def embed_skills():
         print(f"✔ Embedded skill: {s['name']}")
 
 def embed_subjects():
-    subjects = supabase.table("subjects") \
-        .select("id, name") \
-        .is_("embedding", None) \
-        .execute().data
+    batch_size = 1000
+    offset = 0
+    total_processed = 0
 
-    print(f"📌 Subjects sin embedding: {len(subjects)}")
+    while True:
+        subjects = supabase.table("subjects") \
+            .select("id, name") \
+            .is_("embedding", None) \
+            .range(offset, offset + batch_size - 1) \
+            .execute().data
 
-    for sub in subjects:
-        embedding = get_embedding(sub["name"])
+        if not subjects:
+            break
 
-        supabase.table("subjects").update({
-            "embedding": embedding,
-            "embedding_model": EMBEDDING_MODEL_NAME
-        }).eq("id", sub["id"]).execute()
+        print(f"📌 Procesando {len(subjects)} subjects (offset {offset})")
 
-        print(f"✔ Embedded subject: {sub['name']}")
+        for sub in subjects:
+            embedding = get_embedding(sub["name"])
+
+            supabase.table("subjects").update({
+                "embedding": embedding,
+                "embedding_model": EMBEDDING_MODEL_NAME
+            }).eq("id", sub["id"]).execute()
+
+            total_processed += 1
+            print(f"✔ Embedded subject: {sub['name']}")
+
+        offset += batch_size
+
+    print(f"🎉 Total subjects embebidos: {total_processed}")
 
 
 if __name__ == "__main__":
-    embed_skills()
+    embed_subjects()
