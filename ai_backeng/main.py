@@ -1,13 +1,17 @@
+# main.py
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
 from ai_backeng.memory import empty_profile
 from ai_backeng.agent import run_agent
-from ai_backeng.embeddings.user_embedding import embed_user_text
+from ai_backeng.embeddings.embed_user_text import build_user_embedding
 from ai_backeng.matching.get_best_careers import get_best_careers
 
-app = FastAPI()
+from ai_backeng.embeddings.blend import blend_embeddings
+from ai_backeng.embeddings.embedding_provider import get_embedding
 
+app = FastAPI()
 USER_MEMORY = empty_profile()
 
 class ChatInput(BaseModel):
@@ -15,10 +19,14 @@ class ChatInput(BaseModel):
 
 @app.post("/chat")
 def chat(input: ChatInput):
-    user_embedding = embed_user_text(input.message)
+    # actualizar embedding acumulado
+    USER_MEMORY["user_embedding"] = build_user_embedding(
+        USER_MEMORY,
+        input.message
+    )
 
     careers = get_best_careers(
-        user_embedding,
+        USER_MEMORY["user_embedding"],
         USER_MEMORY["preferencias"]
     )
 
@@ -28,6 +36,4 @@ def chat(input: ChatInput):
         careers
     )
 
-    return {
-        "reply": reply
-    }
+    return {"reply": reply}

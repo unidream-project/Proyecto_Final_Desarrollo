@@ -11,11 +11,25 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
+model = genai.GenerativeModel(
+        model_name="gemini-3-flash-preview",
+        generation_config={
+            "temperature": 0.4,
+            "max_output_tokens": 5000
+        }
+    )
+
 def run_agent(user_message, profile, careers):
     career_text = "\n".join([
-        f"- {c['career_name']}: {c['description']}"
-        for c in careers
+        f"- {c['career_name']}: {c['description']}" 
+        for c in careers[:5]  # solo las 5 primeras carreras
     ])
+
+
+    profile_text = {
+        "intereses": profile.get("intereses", []),
+        "habilidades_percibidas": profile.get("habilidades_percibidas", [])
+    }
 
     full_prompt = f"""
 {SYSTEM_PROMPT}
@@ -28,7 +42,7 @@ MENSAJE DEL USUARIO
 ============================
 PERFIL ACTUAL (MEMORIA)
 ============================
-{profile}
+{profile_text}
 
 ============================
 CARRERAS DISPONIBLES
@@ -36,22 +50,31 @@ CARRERAS DISPONIBLES
 {career_text}
 """
 
-    model = genai.GenerativeModel(
-        model_name="gemini-3-flash-preview",
-        generation_config={"temperature": 0.4}
-    )
+    
 
     try:
         response = model.generate_content(full_prompt)
 
-        # Manejo seguro de la respuesta
-        if response.candidates and len(response.candidates) > 0:
-            candidate = response.candidates[0]
+        print("###########################################################################")
+        print("Gemini response:", response)
+        print("###########################################################################")
 
-            # Acceso directo al texto
-            if hasattr(candidate, "content") and hasattr(candidate.content, "text"):
-                return candidate.content.text
+        if response.candidates:
+            candidate = response.candidates[0]
+            content_text = ""
+
+            if hasattr(candidate, "content") and candidate.content:
+                if hasattr(candidate.content, "parts"):
+                    for part in candidate.content.parts:
+                        if hasattr(part, "text") and part.text:
+                            content_text += part.text
+                elif hasattr(candidate.content, "text") and candidate.content.text:
+                    content_text = candidate.content.text
+
+            if content_text.strip():
+                return content_text
 
         return "Error en Gemini: no se generó texto"
+
     except Exception as e:
         return f"Error en Gemini: {str(e)}"

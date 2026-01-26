@@ -1,3 +1,5 @@
+# ai_backeng/matching/skill_matching.py
+
 from ai_backeng.db.supabase_client import supabase
 import numpy as np
 import json
@@ -17,11 +19,12 @@ def get_similar_skills(user_embedding, limit=20):
         if isinstance(skill_emb, list):
             skill_embedding = np.array([float(x) for x in skill_emb], dtype=float)
         else:
+            # Si el embedding es un string, lo parseamos con json.loads
             skill_embedding = np.array([float(x) for x in json.loads(skill_emb)], dtype=float)
 
         score = float(np.dot(skill_embedding, user_embedding))
         s["score"] = score
-        s["distance"] = 1 - score  # agregamos la distancia
+        s["distance"] = 1 - score  # calculamos la distancia como (1 - score)
 
     skills.sort(key=lambda x: x["score"], reverse=True)
     return skills[:limit]
