@@ -1,0 +1,596 @@
+[
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/historia/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/nuestros-simbolos/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/estructura-organizacional/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "FACULTAD DE EDUCACIÓN, CIENCIA Y TECNOLOGÍA",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Semipresencial",
+        "enlace_carrera": "https://www.utn.edu.ec/oferta-de-grado-2/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "PROGRAMAS DE ESPECIALIZACIÓN",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "de tercer nivel y registro de la Senescyt",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "de la oferta académica de los programas de maestría I período 2026. ¡ INSCRIPCIONES ABIERTAS! Inicio de clases: Marzo 2026 AVANCE PROCESO... FASE I PROCESO DE ADMISIÓN REGISTRO INSCRIPCIONES AQUÍ CARGAR DOCUMENTACIÓN PRIMERA FASE Se encuentra disponible el enlace oficial para continuar con el proceso de inscripción. A través del mismo deberá realizar la legalización de su preinscripción y la generación del formulario de pago por valor de cincuenta dólares (USD $50,00). Le solicitamos completar este procedimiento y registrar los datos solicitados, para avanzar a la siguiente fase del proceso. INSCRIPCIONES AQUÍ Una vez realizado el pago de la inscripción, usted podrá cargar la documentación con los siguientes adjuntos, todo en un mismo archivo PDF. Copia a color del título de tercer nivel y",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "En Línea",
+        "enlace_carrera": "https://posgrado.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://colegio.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "La Universidad Técnica del Norte (UTN), como parte de las actividades de enseñanza, investigación y conexión con la comunidad, está ejecutando el Convenio Internacional con la empresa EC-COUNCIL,a través de la Facultad de Ingeniería en Ciencias Aplicadas (FICA), con el Read More …",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://ec-council.utn.edu.ec/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "PUBLICACIONES RECIENTES",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "Los proyectos de investigación que se planteen en esta convocatoria, estarán articulados a los Objetivos de Desarrollo Sostenible de la Agenda 2030, al Plan de Desarrollo para el Nuevo Ecuador 2024-2025 (Secretaría Nacional de Planificación, 2024), a las áreas, líneas y sub líneas del Plan Nacional de la Economía Social de los Conocimientos, Creatividad, Innovación y Saberes Ancestrales (SENESCYT, 2023), al Plan de Desarrollo y Ordenamiento Territorial de la provincia de Imbabura (Prefectura de Imbabura, 2015), al Plan Estratégico y Prospectivo de Desarrollo Institucional (PEPDI) 2019-2023-2035 y, por supuesto, a la Planificación de Programas de Investigación e Innovación de la UTN, que está articulada a las líneas de investigación de la UTN.",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://investigacion.utn.edu.ec/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "Y",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://estudiante.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "y aprendizaje continuo",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "Y",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://educacioncontinua.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://emprendimiento.utn.edu.ec/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "Y",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://deportes.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://cultura.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Parámetros",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "ANDINA Prácticas Pre Profesionales/ Pasantías FECYT-FACULTAD DE EDUCACION, CIENCIA Y TECNOLOGÍA principal: ZOILA REALPE 17-ENE-2022 17-ENE-2025 EDUCACIÓN INICIAL, BÁSICA Y BACHILLERATO INACTIVO IBARRA - IMBABURA - ECUADOR zerealpe@utn.edu.ec uemisiónandina@hotmail.com Ver Detalle 1700PRA2022 BARRIO ORIENTAL FASE 1 Prácticas Pre Profesionales/ Pasantías FECYT-FACULTAD DE EDUCACION, CIENCIA Y TECNOLOGÍA principal: ZOILA REALPE 17-ENE-2022 17-ENE-2025 ORGANIZACIONES SIN FINES DE LUCRO INACTIVO IBARRA - IMBABURA - ECUADOR zerealpe@utn.edu.ec emerjairflores@gmail.com Ver Detalle 1699PRA2022 UNIDAD EDUCATIVA SUCUMBIOS Prácticas Pre Profesionales/ Pasantías FECYT-FACULTAD DE EDUCACION, CIENCIA Y TECNOLOGÍA principal: ZOILA REALPE 17-ENE-2022 17-ENE-2025 EDUCACIÓN INICIAL, BÁSICA Y BACHILLERATO IN",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://cloud3.utn.edu.ec/ords/f?p=182:35",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/directores/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/portafolios/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Parametrización (Seleccionar los parámetros establecidos y luego hacer clic en el botón Obtener Datos.)",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://cloud3.utn.edu.ec/ords/f?p=224:3",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "HTTP Status 404 – Not Found",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://cloud3.utn.edu.ec/prod/f?p=128:2",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "s de revistas científicas Todos estos recursos al servicio de nuestros usuarios",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": ",",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "En Línea",
+        "enlace_carrera": "https://biblioteca.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "El galardón obtenido ratifica el compromiso del Rectorado, Vicerrectorados Académico y Administrativo, Secretaría General, facultades, direcciones y otras dependencias con una gestión pública eficiente, eficaz y transparente, al mantener un correcto manejo del archivo, que es considerado el patrimonio histórico de la Institución. Desde el 2016, la casona universitaria trabaja en la conducción técnica de la gestión documental, por ello es considerada un establecimiento superior de referencia en la zona norte y en el país en este ámbito. Además, integra la Comisión de Instrumentos Técnicos en el Comité Red de Archivos Universitarios del Ecuador (RAUEC).",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://archivogeneral.utn.edu.ec/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "http://procesos.utn.edu.ec/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Gestión Académica",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "https://legislacion.utn.edu.ec/wp-content/uploads/2022/10/Reglamento%20Unidad%20Integracion%20Curricular.pdf",
+        "descripcion_carrera": "a la UTN Reglamento de becas para los estudiantes carreras de grado de la UTN Reglamento de becas estudiantes cuarto nivel – Posgrado Modelo Educativo UTN Instructivo de cursos remediales UTN Instructivo para los cursos intensivos por transición de la",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://legislacion.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://transparencia.utn.edu.ec",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/category/cursos/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/politica-de-privacidad-y-tratamiento-de-datos-personalesaplicacion-movil-universidad-tecnica-del-norte-utn/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/category/sin-categoria/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/matriculas-ciclo-septiembre-2025-febrero-2026/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/jornadas-de-induccion/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/utn-en-el-top-10-de-medios-de-divulgacion-cientifica-en-iberoamerica/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/category/utn/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/orgullo-utn/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/aniversario-television-universitaria/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    },
+    {
+        "nombre_carrera": "Desconocido",
+        "nombre_facultad": "FICA",
+        "nombre_universidad": "Universidad Técnica del Norte",
+        "nombre_titulo": "No especificado",
+        "numero_semestres": "No especificado",
+        "malla_url": "No encontrada",
+        "descripcion_carrera": "",
+        "ubicacion_sedes": [
+            "Ibarra"
+        ],
+        "tipo_universidad": "Pública",
+        "costo": "Gratuita (Sistema Público)",
+        "modalidad": "Presencial",
+        "enlace_carrera": "https://www.utn.edu.ec/delegacion-cientifica-rusa-visita-la-utn/",
+        "fecha_recoleccion": "2026-01-24",
+        "contacto_universidad": "info@utn.edu.ec"
+    }
+]
