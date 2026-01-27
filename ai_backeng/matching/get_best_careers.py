@@ -1,35 +1,46 @@
-# ai_backeng/matching/get_best_careers.py
+from ai_backeng.db.vector import to_pgvector
+import asyncpg
 
-from ai_backeng.matching.skill_matching import get_similar_skills
-from ai_backeng.matching.career_scoring import score_careers_from_skills
-from ai_backeng.matching.subject_scoring import score_careers_from_subjects
-from ai_backeng.matching.merge_scores import merge_scores
-from ai_backeng.matching.filters import apply_filters
-from ai_backeng.db.supabase_client import supabase
 
-def get_best_careers(user_embedding, preferences, top_k=5):
-    skill_matches = get_similar_skills(user_embedding)
-    skill_scores = score_careers_from_skills(skill_matches)
+async def get_best_careers(pool, user_embedding, preferences, top_k=5):
+    async with pool.acquire() as conn:
 
-    subject_scores = score_careers_from_subjects(user_embedding)
+        user_vec = to_pgvector(user_embedding)
 
-    career_scores = merge_scores(skill_scores, subject_scores)
-    career_scores = apply_filters(career_scores, preferences)
+        matches = await conn.fetch(
+            """
+            select *
+            from match_careers_by_embedding($1::vector, $2)
+            """,
+            user_vec,
+            top_k
+        )
 
-    ranked = sorted(
-        career_scores.items(),
-        key=lambda x: x[1],
-        reverse=True
-    )[:top_k]
+        careers = []
 
-    careers = []
-    for cid, score in ranked:
-        c = supabase.table("careers") \
-            .select("career_name, description, modality, duration") \
-            .eq("id", cid) \
-            .single().execute().data
+        for row in matches:
+            c = await conn.fetchrow(
+                """
+                select career_name, description, modality, duration
+                from careers
+                where id = $1
+                """,
+                row["career_id"]
+            )
 
-        c["score"] = round(score, 3)
-        careers.append(c)
+            if not c:
+                continue
 
-    return careers
+            if preferences.get("modalidad"):
+                if c["modality"] != preferences["modalidad"]:
+                    continue
+
+            careers.append({
+                "career_name": c["career_name"],
+                "description": c["description"],
+                "modality": c["modality"],
+                "duration": c["duration"],
+                "score": round(row["score"], 3)
+            })
+
+        return careers

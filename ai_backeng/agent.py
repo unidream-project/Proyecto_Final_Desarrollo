@@ -15,20 +15,31 @@ model = genai.GenerativeModel(
         model_name="gemini-3-flash-preview",
         generation_config={
             "temperature": 0.4,
-            "max_output_tokens": 5000
+            "max_output_tokens": 10000
         }
     )
 
 def run_agent(user_message, profile, careers):
+    #career_text = "\n".join([
+    #    f"- {c['career_name']}: {c['description']}" 
+    #    for c in careers[:5]  # solo las 5 primeras carreras
+    #])
+
+    #career_text = "\n".join([
+    #    f"- {c['career_name']}: {c['description'][:200]}"
+    #    for c in careers
+    #])
+
     career_text = "\n".join([
-        f"- {c['career_name']}: {c['description']}" 
-        for c in careers[:5]  # solo las 5 primeras carreras
+        f"- {c['career_name']} ({c['modality']}, {c['duration']} semestres: {c['description'][:300]}" 
+        for c in careers[:5]
     ])
 
 
     profile_text = {
         "intereses": profile.get("intereses", []),
-        "habilidades_percibidas": profile.get("habilidades_percibidas", [])
+        "habilidades_percibidas": profile.get("habilidades_percibidas", []),
+        "preferencias": profile.get("preferencias", {})
     }
 
     full_prompt = f"""
@@ -55,9 +66,13 @@ CARRERAS DISPONIBLES
     try:
         response = model.generate_content(full_prompt)
 
-        print("###########################################################################")
-        print("Gemini response:", response)
-        print("###########################################################################")
+        #print("###########################################################################")
+        #print(profile)
+        #print("###########################################################################")
+#
+        #print("###########################################################################")
+        #print("Gemini response:", response)
+        #print("###########################################################################")
 
         if response.candidates:
             candidate = response.candidates[0]

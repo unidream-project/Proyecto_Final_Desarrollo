@@ -34,3 +34,11 @@ out/
 *.obj
 *.log
 .env
+__pycache__/
+.env
+node_modules/
+pdfs/
+data/
+env/
+.ipynb_checkpoints/
+.git

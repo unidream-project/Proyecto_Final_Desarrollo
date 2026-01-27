@@ -1,29 +1,54 @@
-scrapy
-itemadapter
-requests
-beautifulsoup4
-pdfplumber
-pandas
-urllib3
-numpy
-sentence-transformers
-nltk
-scikit-learn
-torch
-google-generativeai
-python-dotenv
-Pillow
-pdf2image
-huggingface_hub
-sentence-transformers
-torch
-transformers
-torch
-accelerate
-sentencepiece
-supabase
-python-dotenv
+# =========================
+# Web / API
+# =========================
 fastapi
 uvicorn
-supabase
+
+# =========================
+# Environment
+# =========================
+python-dotenv
+
+# =========================
+# HTTP / Scraping
+# =========================
+requests
+urllib3
+scrapy
+itemadapter
+beautifulsoup4
 unidecode
+
+# =========================
+# Data / Parsing
+# =========================
+pandas
+numpy
+pdfplumber
+pdf2image
+Pillow
+
+# =========================
+# NLP / ML / Embeddings
+# =========================
+torch
+sentence-transformers
+transformers
+scikit-learn
+nltk
+sentencepiece
+accelerate
+huggingface_hub
+
+# =========================
+# AI APIs
+# =========================
+google-generativeai
+
+# =========================
+# Database
+# =========================
+asyncpg
+psycopg2-binary
+pgvector
+supabase
