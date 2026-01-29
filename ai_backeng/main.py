@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware  # <--- IMPORTANTE
 from pydantic import BaseModel
 
 from ai_backeng.db.postgres import init_db, get_pool
@@ -9,6 +10,23 @@ from ai_backeng.agent import run_agent
 from ai_backeng.memory import empty_profile
 
 app = FastAPI()
+
+# =========================
+# CONFIGURACIÓN CORS (EL PUENTE)
+# =========================
+origins = [
+    "http://localhost:5173",                 # Para cuando pruebas en tu PC
+    "https://unidream.vercel.app",           # Tu frontend en producción
+    "https://unidream-git-main-francocriollos-projects.vercel.app" # Preview deployments (opcional)
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],    # Permitir GET, POST, OPTIONS, etc.
+    allow_headers=["*"],    # Permitir enviar JSON, Tokens, etc.
+)
 
 @app.get("/health")
 def health():
