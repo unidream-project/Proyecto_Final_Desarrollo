@@ -1,26 +1,40 @@
 // src/services/api.ts
-/// <reference types="vite/client" />
-// Si existe una variable de entorno en Vercel, usa esa. Si no, usa localhost.
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+import axios from "axios";
 
-export const chatWithAI = async (message: string) => {
-  try {
-    const response = await fetch(`${API_URL}/chat`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ message: message }),
-    });
+const API_URL = "http://127.0.0.1:8000/docs#"; // URL local de FastAPI
 
-    if (!response.ok) {
-      throw new Error("Error en la respuesta del servidor");
-    }
+export const chat = async (userId: string, message: string) => {
+  const response = await axios.post(`${API_URL}/chat/stream`, { user_id: userId, message });
+  return response.data;
+};
 
-    const data = await response.json();
-    return data.reply; // Retorna solo el texto de la respuesta
-  } catch (error) {
-    console.error("Error conectando con el backend:", error);
-    return "Lo siento, hubo un error de conexión con el servidor.";
+export const chatStream = async (
+  userId: string,
+  message: string,
+  onChunk: (chunk: string) => void
+) => {
+  const response = await fetch("http://localhost:8000/chat/stream", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      user_id: userId,
+      message
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error("Error en la conexión con el backend");
+  }
+
+  const reader = response.body?.getReader();
+  const decoder = new TextDecoder();
+
+  if (!reader) return;
+
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+
+    onChunk(decoder.decode(value));
   }
 };
