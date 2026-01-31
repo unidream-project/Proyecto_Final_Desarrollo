@@ -20,7 +20,7 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Copiamos el código
-COPY ai_backend ./ai_backend
+COPY ai_backeng ./ai_backeng
 #COMETNAMOS POR PARA CI CD
 # COPY .env .env
 
