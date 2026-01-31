@@ -1,0 +1,38 @@
+name: CI/CD Tesis Jonathan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validar_y_probar:
+    runs-on: ubuntu-latest
+    # Aquí definimos las variables que usarán tus scripts de Python
+    env:
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Verificar errores de sintaxis (Linter)
+        run: |
+          pip install flake8
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: Prueba de construcción Docker
+        run: |
+          # Esto valida que tu Dockerfile esté bien configurado
+          docker build -t tesis-img:latest .
