@@ -8,10 +8,7 @@
     "career_name": "Carrera de Odontología",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil"
-    ],
+    "locations": ["Quito", "Guayaquil"],
     "degree_title": "Odontólogo(a)",
     "semesters": "10 semestres",
     "cost": "$ 4.283,73 | Los costos de materiales varían según la carrera, pero la UIDE busca mantenerlos accesibles para los estudiantes. Algunos materiales son de uso semestral, mientras que otros pueden utilizarse durante varios ciclos, aproximadamente $500",
@@ -27,9 +24,7 @@
     "career_name": "Carrera de Nutrición y dietética",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Nutrición y Dietética",
     "semesters": "9 semestres",
     "cost": "$ 3.923,70",
@@ -45,9 +40,7 @@
     "career_name": "Carrera de negocios internacionales modalidad en línea",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado/a en Negocios Internacionales",
     "semesters": "8 semestres",
     "cost": "$ 195,68",
@@ -63,11 +56,7 @@
     "career_name": "Carrera de negocios Internacionales",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Licenciado(a) en Negocios Internacionales",
     "semesters": "8 semestres",
     "cost": "$ 3.829,32 | $ 2.068,00 | $ 1.628,30",
@@ -83,9 +72,7 @@
     "career_name": "CARRERA DE MULTIMEDIA Y PRODUCCIÓN AUDIOVISUAL",
     "faculty_name": "Facultad de Arquitectura, Diseño y Arte",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "8 semestres",
     "semesters": "Mayo 2026",
     "cost": "$ 233,08",
@@ -101,9 +88,7 @@
     "career_name": "CARRERA DE MULTIMEDIA Y PRODUCCIÓN AUDIOVISUAL",
     "faculty_name": "Facultad de Arquitectura, Diseño y Arte",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "7 semestres",
     "semesters": "Presencial",
     "cost": "$ 3.834,33",
@@ -119,9 +104,7 @@
     "career_name": "Carrera de medicina veterinaria",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Médico/a Veterinario/a",
     "semesters": "9 semestres",
     "cost": "$ 4.354,47",
@@ -137,10 +120,7 @@
     "career_name": "Carrera de medicina",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil"
-    ],
+    "locations": ["Quito", "Guayaquil"],
     "degree_title": "Médico(a)",
     "semesters": "6 años de carrera, incluído el Internado Rotativo",
     "cost": "$5.771,71 | Los costos son de $600 aproximadamente.",
@@ -156,9 +136,7 @@
     "career_name": "Carrera de MARKETING modalidad en línea",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado/a en Marketing",
     "semesters": "8 semestres",
     "cost": "$ 205,58",
@@ -174,11 +152,7 @@
     "career_name": "Carrera de Marketing",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Programa con segunda carrera Business School",
     "semesters": "Licenciado(a) en Marketing",
     "cost": "$ 3.829,32 | $ 1.624,30 | $ 2.068,00",
@@ -194,9 +168,7 @@
     "career_name": "Carrera de Ingeniería Mecatrónica",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Ingeniero(a) en Mecatrónica",
     "semesters": "8 Periodos académicos",
     "cost": "$ 3.824,82",
@@ -212,10 +184,7 @@
     "career_name": "Carrera de ingeniería industrial",
     "faculty_name": "Facultad de Ingenierías Aplicadas y Desarrollo Industrial",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil"
-    ],
+    "locations": ["Quito", "Guayaquil"],
     "degree_title": "Ingeniero(a) Industrial",
     "semesters": "8 semestres",
     "cost": "$ 2.884,08 | $ 2.044,00",
@@ -231,9 +200,7 @@
     "career_name": "Ingeniería en telecomunicaciones modalidad en línea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Ingeniero en Telecomunicaciones",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -249,9 +216,7 @@
     "career_name": "Carrera de ingeniería en software modalidad en línea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Ingeniero/a en Software",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -267,9 +232,7 @@
     "career_name": "Carrera de ingeniería en sistemas de información en linea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Ingeniero/a en Sistemas de Información",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -285,11 +248,7 @@
     "career_name": "Carrera de ingeniería en sistemas de información",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Ingeniero(a) en Sistemas de información",
     "semesters": "8 semestres",
     "cost": "$ 3.565,04 | $ 1.173,16 | $ 2.068,06",
@@ -305,9 +264,7 @@
     "career_name": "Carrera de Ingeniería en Inteligencia Artificial modalidad en línea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "8 semestres",
     "semesters": "Mayo 2026",
     "cost": "$ 260,58",
@@ -323,9 +280,7 @@
     "career_name": "Ingeniería en ciencia de datos modalidad en línea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Ingeniero en Ciencia de Datos",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -341,9 +296,7 @@
     "career_name": "Carrera de ingeniería en ciberseguridad en línea",
     "faculty_name": "Facultad de Ingenierías Digitales y Tecnologías Emergentes",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Ingeniero(a) en Ciberseguridad",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -359,11 +312,7 @@
     "career_name": "Carrera de Ingeniería Automotriz",
     "faculty_name": "Facultad de Ingenierías Aplicadas y Desarrollo Industrial",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Ingeniero(a) Automotriz",
     "semesters": "8 semestres",
     "cost": "$ 3.566,05 | $ 2.044,30 | En Ecuador, un ingeniero automotriz gana entre $800 y $1,500 mensuales, dependiendo de su experiencia y cargo.",
@@ -379,9 +328,7 @@
     "career_name": "Carrera de Gastronomía modalidad",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado(a) en Gastronomía",
     "semesters": "8 semestres",
     "cost": "$ 260,58",
@@ -397,9 +344,7 @@
     "career_name": "Carrera De Gastronomía",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Gastronomía",
     "semesters": "8 semestres",
     "cost": "$ 3.878,37",
@@ -415,9 +360,7 @@
     "career_name": "Carrera de FISIOTERAPIA",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Fisioterapia",
     "semesters": "8 semestres",
     "cost": "$ 3.740,16",
@@ -433,10 +376,7 @@
     "career_name": "Carrera de Finanzas y Negocios Digitales",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil"
-    ],
+    "locations": ["Quito", "Guayaquil"],
     "degree_title": "Programa con Segunda Carrera Business School",
     "semesters": "Licenciado(a) en Finanzas y Negocios Digitales",
     "cost": "$ 3.829,32 | $ 2.068,00",
@@ -452,9 +392,7 @@
     "career_name": "CARRERA DE Finanzas modalidad",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado/a en Finanzas",
     "semesters": "8 semestres",
     "cost": "$ 202,28",
@@ -470,9 +408,7 @@
     "career_name": "Carrera de Enfermería Nocturna",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado/a en Enfermería",
     "semesters": "Internado rotativo en Ecuador",
     "cost": "$ 2.535,00",
@@ -488,9 +424,7 @@
     "career_name": "Carrera de Enfermería",
     "faculty_name": "Facultad de Ciencias Médicas de la Salud y de la Vida",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Enfermería",
     "semesters": "7 semestres + año internado rotativo",
     "cost": "$ 2.659,48",
@@ -506,9 +440,7 @@
     "career_name": "CARRERA DE DISEÑO GRÁFICO",
     "faculty_name": "Facultad de Arquitectura, Diseño y Arte",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Diseño Gráfico",
     "semesters": "8 semestres",
     "cost": "$ 3.858,30",
@@ -524,9 +456,7 @@
     "career_name": "CARRERA DE Derecho modalidad en línea",
     "faculty_name": "Facultad de Jurisprudencia, Ciencias Sociales y Humanidades",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Abogado (a)",
     "semesters": "8 semestres",
     "cost": "$ 233,08",
@@ -542,11 +472,7 @@
     "career_name": "Carrera de derecho",
     "faculty_name": "Facultad de Jurisprudencia, Ciencias Sociales y Humanidades",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Abogado/a",
     "semesters": "8 semestres",
     "cost": "$ 3.554,81 | $ 1.624,30 | $ 2.835,00",
@@ -562,9 +488,7 @@
     "career_name": "Carrera de contabilidad y auditoría modalidad en línea",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "8 semestres",
     "semesters": "En Linea",
     "cost": "$ 194,58",
@@ -580,9 +504,7 @@
     "career_name": "Carrera de COMUNICACIÓN Y MEDIOS DIGITALES MODALIDAD EN LÍNEA",
     "faculty_name": "Facultad de Jurisprudencia, Ciencias Sociales y Humanidades",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado/a en Comunicación y Medios Digitales",
     "semesters": "8 semestres",
     "cost": "$ 189,08",
@@ -598,9 +520,7 @@
     "career_name": "Carrera de comunicación y medios digitales",
     "faculty_name": "Facultad de Jurisprudencia, Ciencias Sociales y Humanidades",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado/a en Comunicación y Medios Digitales",
     "semesters": "8 semestres",
     "cost": "$ 3.554,81",
@@ -616,9 +536,7 @@
     "career_name": "Carrera De Comercio exterior y aduanas en Línea",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado(a) en Comercio Exterior y Aduanas",
     "semesters": "8 semestres",
     "cost": "$ 195,68",
@@ -634,9 +552,7 @@
     "career_name": "Carrera De Comercio exterior y aduanas",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Comercio Exterior y Aduanas",
     "semesters": "8 semestres",
     "cost": "$ 2.068,00",
@@ -652,9 +568,7 @@
     "career_name": "Carrera de ciencias políticas y relaciones internacionales",
     "faculty_name": "Facultad de Jurisprudencia, Ciencias Sociales y Humanidades",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Licenciado(a) en Ciencias Políticas y Relaciones Internacionales",
     "semesters": "8 semestres",
     "cost": "$ 3.875,98",
@@ -670,9 +584,7 @@
     "career_name": "Carrera de INGENIERÍA CIVIL",
     "faculty_name": "Facultad de Ingenierías Aplicadas y Desarrollo Industrial",
     "modality": "Presencial",
-    "locations": [
-      "Quito"
-    ],
+    "locations": ["Quito"],
     "degree_title": "Ingeniero(a) Civil",
     "semesters": "8 semestres",
     "cost": "$ 3.740,16",
@@ -688,10 +600,7 @@
     "career_name": "CARRERA DE ARQUITECTURA",
     "faculty_name": "Facultad de Arquitectura, Diseño y Arte",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil"
-    ],
+    "locations": ["Quito", "Guayaquil"],
     "degree_title": "Arquitecto(a)",
     "semesters": "9 semestres",
     "cost": "$ 3.826,65 | $ $1.929,62",
@@ -707,9 +616,7 @@
     "career_name": "Carrera de Administración Pública modalidad en línea",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado en Administración Pública",
     "semesters": "8 semestres",
     "cost": "$ 195,68",
@@ -725,9 +632,7 @@
     "career_name": "Carrera de Administración de empresas modalidad",
     "faculty_name": "Facultad de Business School",
     "modality": "En línea",
-    "locations": [
-      "Virtual"
-    ],
+    "locations": ["Virtual"],
     "degree_title": "Licenciado(a) en Administración de Empresas",
     "semesters": "8 semestres",
     "cost": "$ 195,68",
@@ -743,11 +648,7 @@
     "career_name": "Carrera de Administración de empresas",
     "faculty_name": "Facultad de Business School",
     "modality": "Presencial",
-    "locations": [
-      "Quito",
-      "Guayaquil",
-      "Loja"
-    ],
+    "locations": ["Quito", "Guayaquil", "Loja"],
     "degree_title": "Licenciado(a) en Administración de Empresas",
     "semesters": "8 semestres",
     "cost": "$3.829,32 | $1.624,30 | $2.068,00",
