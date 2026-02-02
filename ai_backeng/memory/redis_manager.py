@@ -71,5 +71,7 @@ class SessionManager:
                 "message_count": 0
             },
             "recomendaciones": [],
+            "materias_fuertes": [],
+            "materias_debiles": [],
         }
 
