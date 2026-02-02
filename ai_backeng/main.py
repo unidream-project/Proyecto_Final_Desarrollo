@@ -84,12 +84,23 @@ async def reset_session(user_id: str):
 def get_user_recommendations(user_id: str):
     user_memory = session_manager.get_profile(user_id)
 
+    print("#################################################################################")
+    print(user_memory)
+    print("#################################################################################")
+
+    print("🧠 USER MEMORY COMPLETA:")
+    print(user_memory)
+
     recommendations = user_memory.get("recomendaciones", [])
+
+    print("⭐ RECOMENDACIONES EXTRAÍDAS:")
+    print(recommendations)
 
     return {
         "user_id": user_id,
         "recommendations": recommendations
     }
+
 
 @app.get("/users/{user_id}/recommendations/full")
 async def get_user_recommendations_full(user_id: str):
