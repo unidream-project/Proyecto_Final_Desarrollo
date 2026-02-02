@@ -299,15 +299,17 @@ async def chat_stream(input: ChatInput):
 
             for c in careers:
                 rec = {
+                    "career_id": c.get("career_id"),
                     "career_name": c.get("career_name"),
-                    "university": c.get("university_name"),
+                    "university_id": c.get("university_id"),
+                    "university_name": c.get("university_name"),
                     "timestamp": now_iso(),
                     "context": input.message,
                     "score": c.get("score")
                 }
 
                 if not any(
-                    r["career_name"] == rec["career_name"]
+                    r["career_id"] == rec["career_id"]
                     for r in user_memory["recomendaciones"]
                 ):
                     user_memory["recomendaciones"].append(rec)
