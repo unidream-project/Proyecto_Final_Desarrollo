@@ -16,17 +16,22 @@ async def get_best_careers(
         modality_filter = normalize_modality(preferences.get("modalidad"))
 
         query = """
-            SELECT
-                c.career_name,
-                c.description,
-                c.modality,
-                c.duration,
-                m.score
-            FROM match_careers_by_embedding($1::vector, $2) m
-            JOIN careers c ON c.id = m.career_id
-            WHERE ($3::text IS NULL OR lower(unaccent(c.modality)) = $3)
-            ORDER BY m.score DESC
-            LIMIT $2;
+        SELECT
+            c.id AS career_id,
+            c.career_name,
+            c.description,
+            c.modality,
+            c.duration,
+            c.university_id,
+            u.name AS university_name,
+            m.score
+        FROM match_careers_by_embedding($1::vector, $2) m
+        JOIN careers c ON c.id = m.career_id
+        JOIN universities u ON u.id = c.university_id
+        WHERE ($3::text IS NULL OR lower(unaccent(c.modality)) = $3)
+        ORDER BY m.score DESC
+        LIMIT $2;
+
         """
 
         rows = await conn.fetch(
