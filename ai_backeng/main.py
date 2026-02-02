@@ -1,21 +1,35 @@
-from fastapi import FastAPI, Header
-from fastapi.middleware.cors import CORSMiddleware  # <--- IMPORTANTE
+from fastapi import FastAPI, Depends
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
+from datetime import datetime, timezone
 from ai_backeng.db.postgres import init_db, get_pool
 from ai_backeng.embeddings.embedding_provider import get_embedding
 from ai_backeng.embeddings.blend import blend_embeddings
 from ai_backeng.matching.get_best_careers import get_best_careers
-from ai_backeng.agent import run_agent
+from ai_backeng.agent import run_agent, run_agent_stream, build_user_embedding_text
 from ai_backeng.memory.redis_manager import SessionManager
 from ai_backeng.memory.extractor import extract_profile_updates
-from datetime import datetime, timezone
 from ai_backeng.memory.tiempo import should_greet_user
-from fastapi.responses import StreamingResponse
-from ai_backeng.agent import run_agent_stream
-from ai_backeng.agent import build_user_embedding_text
+from ai_backeng.routers import careers
+from uuid import UUID
+
 
 def now():
     return datetime.now(timezone.utc)
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+def normalize_for_json(obj):
+    if isinstance(obj, dict):
+        return {k: normalize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [normalize_for_json(v) for v in obj]
+    if isinstance(obj, UUID):
+        return str(obj)
+    return obj
+
 
 app = FastAPI()
 
@@ -23,18 +37,32 @@ app = FastAPI()
 # CONFIGURACIÓN CORS (EL PUENTE)
 # =========================
 origins = [
-    "http://localhost:5173",                 # Para cuando pruebas en tu PC
-    "https://unidream.vercel.app",           # Tu frontend en producción
-    "https://unidream-git-main-francocriollos-projects.vercel.app" # Preview deployments (opcional)
+    "http://localhost:5173",
+    "http://3.21.97.112:5173",   # 👈 ESTA ES LA CLAVE
+    "https://unidream.vercel.app",
+    "https://unidream-git-main-francocriollos-projects.vercel.app",
 ]
+
+#app.add_middleware(
+#    CORSMiddleware,
+#    allow_origins=origins,
+#    allow_credentials=True,
+#    allow_methods=["*"],    # Permitir GET, POST, OPTIONS, etc.
+#    allow_headers=["*"],    # Permitir enviar JSON, Tokens, etc.
+#)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://3.21.97.112:5173",
+        "https://unidream.vercel.app",
+    ],
     allow_credentials=True,
-    allow_methods=["*"],    # Permitir GET, POST, OPTIONS, etc.
-    allow_headers=["*"],    # Permitir enviar JSON, Tokens, etc.
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
+
 session_manager = SessionManager()
 
 class ChatInput(BaseModel):
@@ -44,6 +72,8 @@ class ChatInput(BaseModel):
 @app.on_event("startup")
 async def startup():
     await init_db()
+
+app.include_router(careers.router)
 
 @app.post("/reset-session")
 async def reset_session(user_id: str):
@@ -125,13 +155,51 @@ async def chat(input: ChatInput):
         )
 
     # 7. Matching de carreras
+    # 7. Matching de carreras
     careers = []
+
     if user_memory.get("user_embedding"):
+        enriched_preferences = {
+            **user_memory.get("preferencias", {}),
+            "intereses": user_memory.get("intereses", []),
+            "habilidades_percibidas": user_memory.get("habilidades_percibidas", []),
+            "materias_fuertes": user_memory.get("materias_fuertes", [])
+        }
+
         careers = await get_best_careers(
             pool,
             user_memory["user_embedding"],
-            user_memory.get("preferencias", {})
+            enriched_preferences
         )
+
+        # 7.1 Guardar recomendaciones en Redis
+        if careers:
+            user_memory.setdefault("recomendaciones", [])
+
+            for c in careers:
+                rec = {
+                    "career_id": c.get("career_id"),
+                    "career_name": c.get("career_name"),
+                    "university_id": c.get("university_id"),
+                    "university_name": c.get("university_name"),
+                    "timestamp": now_iso(),
+                    "context": input.message,
+                    "score": c.get("score")
+                }
+
+                if not any(
+                    r.get("career_id") == rec["career_id"]
+                    for r in user_memory["recomendaciones"]
+                    if r.get("career_id") is not None
+                ):
+                    user_memory["recomendaciones"].append(rec)
+
+
+
+    print("Rerank query context:", enriched_preferences)
+
+
+
 
     # 8. Respuesta del agente
     reply = run_agent(
@@ -142,6 +210,7 @@ async def chat(input: ChatInput):
     )
 
     # 9. Persistimos sesión (ya guardamos saludo arriba)
+    user_memory = normalize_for_json(user_memory)
     session_manager.save_profile(input.user_id, user_memory)
 
     return {"reply": reply}
@@ -222,12 +291,44 @@ async def chat_stream(input: ChatInput):
 
     # 7. Matching de carreras
     careers = []
+
     if user_memory.get("user_embedding"):
+        enriched_preferences = {
+            **user_memory.get("preferencias", {}),
+            "intereses": user_memory.get("intereses", []),
+            "habilidades_percibidas": user_memory.get("habilidades_percibidas", []),
+            "materias_fuertes": user_memory.get("materias_fuertes", [])
+        }
+
         careers = await get_best_careers(
             pool,
             user_memory["user_embedding"],
-            user_memory.get("preferencias", {})
+            enriched_preferences
         )
+
+        # 7.1 Guardar recomendaciones en Redis
+        if careers:
+            user_memory.setdefault("recomendaciones", [])
+
+            for c in careers:
+                rec = {
+                    "career_id": c.get("career_id"),
+                    "career_name": c.get("career_name"),
+                    "university_id": c.get("university_id"),
+                    "university_name": c.get("university_name"),
+                    "timestamp": now_iso(),
+                    "context": input.message,
+                    "score": c.get("score")
+                }
+
+                if not any(
+                    r.get("career_id") == rec["career_id"]
+                    for r in user_memory["recomendaciones"]
+                    if r.get("career_id") is not None
+                ):
+                    user_memory["recomendaciones"].append(rec)
+
+
 
     def generator():
         has_content = False
@@ -245,12 +346,48 @@ async def chat_stream(input: ChatInput):
             yield "Lo siento, no pude generar una respuesta en este momento.\n"
 
         # 3️⃣ Guardamos la memoria del usuario **al final del streaming**
-        session_manager.save_profile(input.user_id, user_memory)
+        safe_memory = normalize_for_json(user_memory)
+        session_manager.save_profile(input.user_id, safe_memory)
 
         # 4️⃣ Marcamos fin de la transmisión
         yield "\n[END]\n"
+    
 
     return StreamingResponse(
         generator(),
         media_type="text/plain"
     )
+
+# --- RUTA DE EMERGENCIA PARA UNIVERSIDADES ---
+@app.get("/universities")
+async def get_universities(
+    page: int = 1, 
+    limit: int = 20, 
+    pool = Depends(get_pool)
+):
+    offset = (page - 1) * limit
+
+    # 1. Consulta REAL a la Base de Datos
+    rows = await pool.fetch("""
+        SELECT * FROM universities 
+        ORDER BY id 
+        LIMIT $1 OFFSET $2
+    """, limit, offset)
+
+    results = []
+    for r in rows:
+        # Convertimos la fila a diccionario para evitar errores si faltan columnas
+        d = dict(r)
+
+        results.append({
+            "id": d.get("id"),
+            "nombre": d.get("name", "Sin Nombre"), # Ajusta 'name' si la columna se llama distinto
+            "tipo": d.get("type", "Institución"),
+            "ubicacion": d.get("location", "Ecuador"),
+            "imagen": d.get("url_logo", None), # Si es null, el frontend pondrá el placeholder
+            "descripcion": d.get("description", "Sin descripción disponible."),
+            "matchIA": 0, # Calcularemos esto luego con la IA
+            "url": d.get("website", d.get("url", "#"))
+        })
+
+    return results

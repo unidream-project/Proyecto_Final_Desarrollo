@@ -2,14 +2,28 @@
 FROM node:22-alpine AS build
 
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
 
-# Lo demás se queda exactamente igual
-FROM nginx:stable-alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-RUN echo 'server { listen 80; location / { root /usr/share/nginx/html; index index.html; try_files $uri $uri/ /index.html; } }' > /etc/nginx/conf.d/default.conf
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Dependencias del sistema (importante para sentence-transformers)
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    curl \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copiamos requirements
+COPY requirements.txt .
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# Copiamos el código
+COPY ai_backeng ./ai_backeng
+
+COPY .env .env
+
+# Exponemos el puerto
+EXPOSE 8000
+
+# Comando de arranque
+CMD ["uvicorn", "ai_backeng.main:app", "--host", "0.0.0.0", "--port", "8000"]
