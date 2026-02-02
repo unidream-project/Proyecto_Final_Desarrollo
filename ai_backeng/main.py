@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from datetime import datetime, timezone
-
 from ai_backeng.db.postgres import init_db, get_pool
 from ai_backeng.embeddings.embedding_provider import get_embedding
 from ai_backeng.embeddings.blend import blend_embeddings
@@ -13,7 +12,7 @@ from ai_backeng.memory.redis_manager import SessionManager
 from ai_backeng.memory.extractor import extract_profile_updates
 from ai_backeng.memory.tiempo import should_greet_user
 from ai_backeng.routers import careers
-
+from uuid import UUID
 
 
 def now():
@@ -21,6 +20,16 @@ def now():
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
+
+def normalize_for_json(obj):
+    if isinstance(obj, dict):
+        return {k: normalize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [normalize_for_json(v) for v in obj]
+    if isinstance(obj, UUID):
+        return str(obj)
+    return obj
+
 
 app = FastAPI()
 
@@ -169,16 +178,19 @@ async def chat(input: ChatInput):
 
             for c in careers:
                 rec = {
+                    "career_id": c.get("career_id"),
                     "career_name": c.get("career_name"),
-                    "university": c.get("university_name"),
+                    "university_id": c.get("university_id"),
+                    "university_name": c.get("university_name"),
                     "timestamp": now_iso(),
                     "context": input.message,
                     "score": c.get("score")
                 }
 
                 if not any(
-                    r["career_name"] == rec["career_name"]
+                    r.get("career_id") == rec["career_id"]
                     for r in user_memory["recomendaciones"]
+                    if r.get("career_id") is not None
                 ):
                     user_memory["recomendaciones"].append(rec)
 
@@ -198,6 +210,7 @@ async def chat(input: ChatInput):
     )
 
     # 9. Persistimos sesión (ya guardamos saludo arriba)
+    user_memory = normalize_for_json(user_memory)
     session_manager.save_profile(input.user_id, user_memory)
 
     return {"reply": reply}
@@ -309,8 +322,9 @@ async def chat_stream(input: ChatInput):
                 }
 
                 if not any(
-                    r["career_id"] == rec["career_id"]
+                    r.get("career_id") == rec["career_id"]
                     for r in user_memory["recomendaciones"]
+                    if r.get("career_id") is not None
                 ):
                     user_memory["recomendaciones"].append(rec)
 
@@ -332,7 +346,8 @@ async def chat_stream(input: ChatInput):
             yield "Lo siento, no pude generar una respuesta en este momento.\n"
 
         # 3️⃣ Guardamos la memoria del usuario **al final del streaming**
-        session_manager.save_profile(input.user_id, user_memory)
+        safe_memory = normalize_for_json(user_memory)
+        session_manager.save_profile(input.user_id, safe_memory)
 
         # 4️⃣ Marcamos fin de la transmisión
         yield "\n[END]\n"
